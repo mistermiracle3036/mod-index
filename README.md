@@ -30,7 +30,8 @@ same manifest checks.
 | Mod | What it does |
 | --- | --- |
 | **Pokemon Snag** | Steal Pokemon from trainers with the Snag Ball. Requires Quest System. |
-| **Kanto Ribbons** | Seventeen per-Pokemon ribbons, awarded automatically, shown in the status screen. |
+| **Kanto Ribbons** | Eighteen per-Pokemon ribbons, awarded automatically, shown in the status screen. |
+| **Kanto Contests** | *Alpha.* Ruby/Sapphire-style Contests in Celadon, scored on each move's contest category. |
 | **Pokeball Colors** | Per-ball colors for the battle ball toss under ADVANCED color mode. |
 | **Shop Events** | Library mod: emits `shop.purchased` at marts. |
 | **Example Balls** | Four template balls, each demonstrating a different mod-API pattern. Requires Shop Events. |

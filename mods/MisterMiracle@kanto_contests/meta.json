@@ -1,0 +1,19 @@
+{
+  "id": "kanto_contests",
+  "title": "Kanto Contests (Alpha)",
+  "author": "Mister Miracle",
+  "summary": "ALPHA - Ruby/Sapphire-style Pokemon Contests in Kanto. Appeal to the judge in the Celadon Contest Hall, scored on each move's contest category rather than its damage.",
+  "version": "0.7.5",
+  "categories": ["CONTENT", "GAMEPLAY"],
+  "tags": ["contests", "celadon", "alpha"],
+  "repo": "https://github.com/mistermiracle3036/Kanto-Contests",
+  "github": "mistermiracle3036/Kanto-Contests",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.1.75 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": ["engine_internals"],
+  "dependencies": [],
+  "conflicts": []
+}
