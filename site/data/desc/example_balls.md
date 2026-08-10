@@ -1,4 +1,4 @@
-> **This mod has been replaced by [Kanto Balls](https://github.com/mistermiracle3036/Shop-Tools---Custom-Balls).
+> **This mod has been replaced by [Kanto Balls](https://github.com/mistermiracle3036/Kanto-Balls).
 > Install that instead.** This listing stays only so existing installs
 > keep resolving; it is frozen at 0.1.5 and gets no further updates.
 
