@@ -1,0 +1,19 @@
+{
+  "id": "pokeball_colors",
+  "title": "Pokeball Colors",
+  "author": "Mister Miracle",
+  "summary": "Per-ball colors for the battle ball toss under ADVANCED color mode: all five native balls plus the nine Custom Poke Balls mod balls.",
+  "version": "0.1.13",
+  "categories": ["ART"],
+  "tags": ["cosmetic", "battle", "pokeballs"],
+  "repo": "https://github.com/mistermiracle3036/Pokeball-Colors",
+  "github": "mistermiracle3036/Pokeball-Colors",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.1.38 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": ["engine_internals"],
+  "dependencies": [],
+  "conflicts": []
+}

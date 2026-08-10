@@ -1,0 +1,19 @@
+{
+  "id": "example_balls",
+  "title": "Example Balls",
+  "author": "Mister Miracle",
+  "summary": "Template mod adding four balls, each demonstrating a different mod-API pattern: Premier, Nest, Moon and Heal. Colors register into Pokeball Colors when installed.",
+  "version": "0.1.5",
+  "categories": ["LIBRARY", "CONTENT"],
+  "tags": ["template", "example", "pokeballs"],
+  "repo": "https://github.com/mistermiracle3036/Shop-Tools---Custom-Balls",
+  "github": "mistermiracle3036/Shop-Tools---Custom-Balls",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.1.38 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": ["engine_internals"],
+  "dependencies": ["shop_events"],
+  "conflicts": []
+}

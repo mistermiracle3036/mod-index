@@ -1,0 +1,19 @@
+{
+  "id": "shop_events",
+  "title": "Shop Events",
+  "author": "Mister Miracle",
+  "summary": "Library mod: emits a shop.purchased event whenever the player buys something at a mart, since the engine has no purchase event of its own.",
+  "version": "0.1.5",
+  "categories": ["LIBRARY"],
+  "tags": ["library", "api", "shops"],
+  "repo": "https://github.com/mistermiracle3036/Shop-Tools---Custom-Balls",
+  "github": "mistermiracle3036/Shop-Tools---Custom-Balls",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.1.38 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": ["engine_internals"],
+  "dependencies": [],
+  "conflicts": []
+}

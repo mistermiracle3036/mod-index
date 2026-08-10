@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-10T00:03:30.908Z",
+  "count": 6,
+  "categories": [
+    "GAMEPLAY",
+    "CONTENT",
+    "ART",
+    "UI",
+    "LIBRARY",
+    "TOOL"
+  ],
+  "mods": [
+    {
+      "folder": "MisterMiracle@example_balls",
+      "id": "example_balls",
+      "title": "Example Balls",
+      "author": "Mister Miracle",
+      "version": "0.1.5",
+      "summary": "Template mod adding four balls, each demonstrating a different mod-API pattern: Premier, Nest, Moon and Heal. Colors register into Pokeball Colors when installed.",
+      "categories": [
+        "LIBRARY",
+        "CONTENT"
+      ],
+      "tags": [
+        "template",
+        "example",
+        "pokeballs"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Shop-Tools---Custom-Balls",
+      "github": "mistermiracle3036/Shop-Tools---Custom-Balls",
+      "api": 2,
+      "game_version": ">=0.1.38 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [
+        "shop_events"
+      ],
+      "conflicts": [],
+      "update_check": "ok",
+      "description_url": "data/desc/example_balls.md",
+      "latest": {
+        "version": "0.1.5",
+        "tag": "v0.1.5",
+        "name": "Shop Tools - Custom Balls 0.1.5",
+        "prerelease": false,
+        "published_at": "2026-08-09T01:25:43Z",
+        "zip": {
+          "name": "example_balls-0.1.5.zip",
+          "url": "https://github.com/mistermiracle3036/Shop-Tools---Custom-Balls/releases/download/v0.1.5/example_balls-0.1.5.zip",
+          "size": 8311
+        }
+      },
+      "downloads": 18,
+      "first_release": "2026-08-09T01:25:43Z",
+      "last_release": "2026-08-09T01:25:43Z"
+    },
+    {
+      "folder": "MisterMiracle@kanto_ribbons",
+      "id": "kanto_ribbons",
+      "title": "Kanto Ribbons",
+      "author": "Mister Miracle",
+      "version": "0.15.4",
+      "summary": "Seventeen per-Pokemon ribbons reimagined for Gen 1 - earned, bought, and bonded - awarded automatically and shown inside the status screen.",
+      "categories": [
+        "GAMEPLAY",
+        "UI"
+      ],
+      "tags": [
+        "ribbons",
+        "collection",
+        "status screen"
+      ],
+      "repo": "https://github.com/mistermiracle3036/kanto_ribbons",
+      "github": "mistermiracle3036/kanto_ribbons",
+      "api": 2,
+      "game_version": ">=0.1.38 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "update_check": "ok",
+      "description_url": "data/desc/kanto_ribbons.md",
+      "latest": {
+        "version": "0.15.4",
+        "tag": "v0.15.4",
+        "name": "v0.15.4",
+        "prerelease": false,
+        "published_at": "2026-08-09T07:08:31Z",
+        "zip": {
+          "name": "kanto_ribbons-0.15.4.zip",
+          "url": "https://github.com/mistermiracle3036/kanto_ribbons/releases/download/v0.15.4/kanto_ribbons-0.15.4.zip",
+          "size": 38401
+        }
+      },
+      "downloads": 47,
+      "first_release": "2026-08-08T14:50:46Z",
+      "last_release": "2026-08-09T07:08:31Z"
+    },
+    {
+      "folder": "MisterMiracle@npc_inspector",
+      "id": "npc_inspector",
+      "title": "NPC Inspector (dev tool)",
+      "author": "Mister Miracle",
+      "version": "1.0.0",
+      "summary": "Dev tool: shows the map id and TEXT_ constant of any NPC you talk to, so mods can target them precisely. Toggle off to play normally.",
+      "categories": [
+        "TOOL"
+      ],
+      "tags": [
+        "modding",
+        "dev tool",
+        "dialogue"
+      ],
+      "repo": "https://github.com/mistermiracle3036/npc_inspector",
+      "github": "mistermiracle3036/npc_inspector",
+      "api": 2,
+      "game_version": ">=0.1.38 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "update_check": "ok",
+      "description_url": "data/desc/npc_inspector.md",
+      "latest": {
+        "version": "1.0.0",
+        "tag": "v1.0.0",
+        "name": "v1.0.0",
+        "prerelease": false,
+        "published_at": "2026-08-09T23:45:46Z",
+        "zip": {
+          "name": "npc_inspector-1.0.0.zip",
+          "url": "https://github.com/mistermiracle3036/npc_inspector/releases/download/v1.0.0/npc_inspector-1.0.0.zip",
+          "size": 6106
+        }
+      },
+      "downloads": 0,
+      "first_release": "2026-08-09T23:45:46Z",
+      "last_release": "2026-08-09T23:45:46Z"
+    },
+    {
+      "folder": "MisterMiracle@pokeball_colors",
+      "id": "pokeball_colors",
+      "title": "Pokeball Colors",
+      "author": "Mister Miracle",
+      "version": "0.1.13",
+      "summary": "Per-ball colors for the battle ball toss under ADVANCED color mode: all five native balls plus the nine Custom Poke Balls mod balls.",
+      "categories": [
+        "ART"
+      ],
+      "tags": [
+        "cosmetic",
+        "battle",
+        "pokeballs"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Pokeball-Colors",
+      "github": "mistermiracle3036/Pokeball-Colors",
+      "api": 2,
+      "game_version": ">=0.1.38 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "update_check": "ok",
+      "description_url": "data/desc/pokeball_colors.md",
+      "latest": {
+        "version": "0.1.13",
+        "tag": "v0.1.13",
+        "name": "v0.1.13",
+        "prerelease": false,
+        "published_at": "2026-08-09T08:39:49Z",
+        "zip": {
+          "name": "pokeball_colors-0.1.13.zip",
+          "url": "https://github.com/mistermiracle3036/Pokeball-Colors/releases/download/v0.1.13/pokeball_colors-0.1.13.zip",
+          "size": 15167
+        }
+      },
+      "downloads": 201,
+      "first_release": "2026-08-08T15:29:22Z",
+      "last_release": "2026-08-09T08:39:49Z"
+    },
+    {
+      "folder": "MisterMiracle@snag_quest",
+      "id": "snag_quest",
+      "title": "Pokemon Snag",
+      "author": "Mister Miracle",
+      "version": "0.11.7",
+      "summary": "Steal Pokemon from other trainers with the SNAG BALL. Earn it through Jessie's questline, or fence what you take to black-market buyers across Kanto.",
+      "categories": [
+        "GAMEPLAY",
+        "CONTENT"
+      ],
+      "tags": [
+        "quest",
+        "catching",
+        "team rocket"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Pokemon-Snag",
+      "github": "mistermiracle3036/Pokemon-Snag",
+      "api": 2,
+      "game_version": ">=0.1.38 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [
+        "quest_system"
+      ],
+      "conflicts": [],
+      "update_check": "ok",
+      "description_url": "data/desc/snag_quest.md",
+      "latest": {
+        "version": "0.11.7",
+        "tag": "v0.11.7",
+        "name": "v0.11.7",
+        "prerelease": false,
+        "published_at": "2026-08-08T20:31:26Z",
+        "zip": {
+          "name": "snag_quest-0.11.7.zip",
+          "url": "https://github.com/mistermiracle3036/Pokemon-Snag/releases/download/v0.11.7/snag_quest-0.11.7.zip",
+          "size": 42935
+        }
+      },
+      "downloads": 61,
+      "first_release": "2026-08-08T05:57:58Z",
+      "last_release": "2026-08-08T20:31:26Z"
+    },
+    {
+      "folder": "MisterMiracle@shop_events",
+      "id": "shop_events",
+      "title": "Shop Events",
+      "author": "Mister Miracle",
+      "version": "0.1.5",
+      "summary": "Library mod: emits a shop.purchased event whenever the player buys something at a mart, since the engine has no purchase event of its own.",
+      "categories": [
+        "LIBRARY"
+      ],
+      "tags": [
+        "library",
+        "api",
+        "shops"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Shop-Tools---Custom-Balls",
+      "github": "mistermiracle3036/Shop-Tools---Custom-Balls",
+      "api": 2,
+      "game_version": ">=0.1.38 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "update_check": "ok",
+      "description_url": "data/desc/shop_events.md",
+      "latest": {
+        "version": "0.1.5",
+        "tag": "v0.1.5",
+        "name": "Shop Tools - Custom Balls 0.1.5",
+        "prerelease": false,
+        "published_at": "2026-08-09T01:25:43Z",
+        "zip": {
+          "name": "shop_events-0.1.5.zip",
+          "url": "https://github.com/mistermiracle3036/Shop-Tools---Custom-Balls/releases/download/v0.1.5/shop_events-0.1.5.zip",
+          "size": 6114
+        }
+      },
+      "downloads": 17,
+      "first_release": "2026-08-09T01:25:43Z",
+      "last_release": "2026-08-09T01:25:43Z"
+    }
+  ]
+}

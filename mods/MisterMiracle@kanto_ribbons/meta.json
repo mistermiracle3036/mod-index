@@ -1,0 +1,19 @@
+{
+  "id": "kanto_ribbons",
+  "title": "Kanto Ribbons",
+  "author": "Mister Miracle",
+  "summary": "Seventeen per-Pokemon ribbons reimagined for Gen 1 - earned, bought, and bonded - awarded automatically and shown inside the status screen.",
+  "version": "0.15.4",
+  "categories": ["GAMEPLAY", "UI"],
+  "tags": ["ribbons", "collection", "status screen"],
+  "repo": "https://github.com/mistermiracle3036/kanto_ribbons",
+  "github": "mistermiracle3036/kanto_ribbons",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.1.38 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": ["engine_internals"],
+  "dependencies": [],
+  "conflicts": []
+}

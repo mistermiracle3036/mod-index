@@ -1,0 +1,89 @@
+name: Build index and deploy Pages
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Nightly: re-read every tracked repo's Releases so index.json follows a
+    # version bump without anyone touching this repo.  Tag a release in the
+    # mod's own repo and the listing catches up here.
+    - cron: '23 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  # contents: write (not read) because the generated feed is committed back --
+  # the engine's fallback URL reads site/data/index.json straight from raw
+  # .githubusercontent on main, so a feed that only ever existed in the Pages
+  # artifact would leave that fallback stale.
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build index
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/build-index.mjs --releases
+
+      - name: Check the feed against the engine's contract
+        run: node scripts/check-feed.mjs
+
+      - name: Commit the feed if it actually changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- site/data; then
+            echo "feed unchanged"
+            exit 0
+          fi
+          # generated_at moves on every run; a commit for that alone would be
+          # a nightly no-op in the history.
+          real=$(git diff -U0 -- site/data \
+            | grep -E '^[+-]' | grep -Ev '^(\+\+\+|---)' \
+            | grep -v '"generated_at"' | wc -l)
+          if [ "$real" -eq 0 ]; then
+            echo "only generated_at moved; discarding"
+            git checkout -- site/data
+            exit 0
+          fi
+          git add site/data
+          # [skip ci] so this push does not re-trigger the workflow.
+          git commit -m "index: refresh feed from releases [skip ci]"
+          git push
+
+      - name: Summarize
+        run: |
+          {
+            echo '### index.json'
+            echo
+            node -e "const i=require('./site/data/index.json');
+              console.log('- ' + i.count + ' mod(s), generated ' + i.generated_at);
+              for (const m of i.mods) console.log('- \`' + m.id + '\` ' + (m.latest ? m.latest.version + ' (' + m.update_check + ')' : m.update_check));"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

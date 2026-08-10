@@ -1,0 +1,19 @@
+{
+  "id": "snag_quest",
+  "title": "Pokemon Snag",
+  "author": "Mister Miracle",
+  "summary": "Steal Pokemon from other trainers with the SNAG BALL. Earn it through Jessie's questline, or fence what you take to black-market buyers across Kanto.",
+  "version": "0.11.7",
+  "categories": ["GAMEPLAY", "CONTENT"],
+  "tags": ["quest", "catching", "team rocket"],
+  "repo": "https://github.com/mistermiracle3036/Pokemon-Snag",
+  "github": "mistermiracle3036/Pokemon-Snag",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.1.38 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": ["engine_internals"],
+  "dependencies": ["quest_system"],
+  "conflicts": []
+}

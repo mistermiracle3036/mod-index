@@ -1,0 +1,19 @@
+{
+  "id": "npc_inspector",
+  "title": "NPC Inspector (dev tool)",
+  "author": "Mister Miracle",
+  "summary": "Dev tool: shows the map id and TEXT_ constant of any NPC you talk to, so mods can target them precisely. Toggle off to play normally.",
+  "version": "1.0.0",
+  "categories": ["TOOL"],
+  "tags": ["modding", "dev tool", "dialogue"],
+  "repo": "https://github.com/mistermiracle3036/npc_inspector",
+  "github": "mistermiracle3036/npc_inspector",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.1.38 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": ["engine_internals"],
+  "dependencies": [],
+  "conflicts": []
+}

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mister Miracle's gen1recomp mods</title>
+<style>
+  :root {
+    --bg: #f5f6f4; --card: #ffffff; --ink: #1b1f1a; --muted: #5d6357;
+    --line: #d9ddd4; --accent: #2f6b3f; --chip: #e8ece4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14171a; --card: #1c2024; --ink: #e6e9e4; --muted: #99a196;
+      --line: #2b3138; --accent: #7fc38f; --chip: #262c31;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2rem 1rem 4rem; background: var(--bg); color: var(--ink);
+    font: 16px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  .wrap { max-width: 60rem; margin: 0 auto; }
+  h1 { font-size: 1.7rem; margin: 0 0 .3rem; letter-spacing: -.01em; }
+  .sub { color: var(--muted); margin: 0 0 1.5rem; }
+  .addbox {
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 1rem 1.1rem; margin-bottom: 2rem;
+  }
+  .addbox h2 { font-size: 1rem; margin: 0 0 .5rem; }
+  .addbox ol { margin: .4rem 0 0; padding-left: 1.2rem; }
+  code {
+    background: var(--chip); padding: .12em .4em; border-radius: 5px;
+    font: .87em ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    overflow-wrap: anywhere;
+  }
+  .grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); }
+  .mod {
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 1rem 1.1rem; display: flex; flex-direction: column; gap: .5rem;
+  }
+  .mod h3 { margin: 0; font-size: 1.05rem; }
+  .mod .ver { color: var(--muted); font-weight: 400; font-size: .85rem; }
+  .mod p { margin: 0; color: var(--muted); font-size: .92rem; }
+  .cats { display: flex; flex-wrap: wrap; gap: .35rem; }
+  .cat {
+    background: var(--chip); color: var(--muted); border-radius: 999px;
+    padding: .1rem .55rem; font-size: .72rem; letter-spacing: .03em;
+  }
+  .links { margin-top: auto; padding-top: .3rem; display: flex; gap: .9rem; font-size: .88rem; }
+  a { color: var(--accent); }
+  footer { margin-top: 2.5rem; color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Mister Miracle's gen1recomp mods</h1>
+  <p class="sub">A mod index for <a href="https://github.com/bryanthaboi/gen1recomp">gen1recomp</a>. Add it in-game and install any of these from the launcher.</p>
+
+  <div class="addbox">
+    <h2>Add this index in the launcher</h2>
+    <ol>
+      <li>Open the mod manager and go to <strong>Find Mods</strong>.</li>
+      <li>Choose <strong>Add index</strong> and paste <code>mistermiracle3036/mod-index</code></li>
+      <li>The mods below appear, each installable in place.</li>
+    </ol>
+  </div>
+
+  <div class="grid" id="grid">Loading&hellip;</div>
+
+  <footer id="foot"></footer>
+</div>
+
+<script>
+fetch('data/index.json')
+  .then(r => r.json())
+  .then(d => {
+    const grid = document.getElementById('grid');
+    grid.innerHTML = '';
+    for (const m of d.mods) {
+      const el = document.createElement('div');
+      el.className = 'mod';
+
+      const h = document.createElement('h3');
+      h.textContent = m.title + ' ';
+      const v = document.createElement('span');
+      v.className = 'ver';
+      v.textContent = (m.latest && m.latest.version) || m.version || '';
+      h.appendChild(v);
+      el.appendChild(h);
+
+      const cats = document.createElement('div');
+      cats.className = 'cats';
+      for (const c of m.categories || []) {
+        const s = document.createElement('span');
+        s.className = 'cat';
+        s.textContent = c;
+        cats.appendChild(s);
+      }
+      el.appendChild(cats);
+
+      const p = document.createElement('p');
+      p.textContent = m.summary || '';
+      el.appendChild(p);
+
+      const links = document.createElement('div');
+      links.className = 'links';
+      if (m.repo) {
+        const a = document.createElement('a');
+        a.href = m.repo; a.textContent = 'Source';
+        links.appendChild(a);
+      }
+      if (m.latest && m.latest.zip && m.latest.zip.url) {
+        const a = document.createElement('a');
+        a.href = m.latest.zip.url;
+        a.textContent = 'Download .zip';
+        links.appendChild(a);
+      }
+      el.appendChild(links);
+
+      grid.appendChild(el);
+    }
+    document.getElementById('foot').textContent =
+      d.count + ' mods · feed generated ' + new Date(d.generated_at).toLocaleString();
+  })
+  .catch(err => {
+    document.getElementById('grid').textContent = 'Could not load the feed: ' + err.message;
+  });
+</script>
+</body>
+</html>
