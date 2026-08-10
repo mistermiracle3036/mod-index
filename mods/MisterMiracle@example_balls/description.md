@@ -1,29 +1,23 @@
-Four new balls for gen1recomp, each one written to demonstrate a
-**different mod-API pattern** -- so it works as a playable ball pack and as
-a template you can copy.
+> **This mod has been replaced by [Kanto Balls](https://github.com/mistermiracle3036/Shop-Tools---Custom-Balls).
+> Install that instead.** This listing stays only so existing installs
+> keep resolving; it is frozen at 0.1.5 and gets no further updates.
 
-| Ball | Pattern it demonstrates |
-| ---- | ----------------------- |
-| Premier | Reacting to a `shop.purchased` event; free when you buy 10+ of a ball at once. No catch code at all. |
-| Nest | A catch-rate multiplier computed from live battle state. |
-| Moon | Querying the engine's species data. |
-| Heal | Handling the `pokemon.caught` event. |
+Example Balls was renamed to **Kanto Balls** (`example_balls` becomes
+`kanto_balls`) at version 0.2.0, and has since grown from four balls to
+seven.
 
-## Requires
+A mod id cannot be redirected — the id *is* the identity, and the
+launcher refuses an archive whose manifest id does not match the listing
+it came from. So the rename had to be a new entry rather than a change to
+this one.
 
-**Shop Events** must be installed and enabled -- Premier's behaviour is
-built on it.
+**If you have this installed, remove it before installing Kanto Balls.**
+The two register overlapping balls, and because different ids install to
+different folders, nothing stops both running at once. Kanto Balls
+declares this mod in its `conflicts`, so the launcher will warn you.
 
-Optional: **Pokeball Colors** and Custom Poke Balls. When Pokeball Colors
-is installed, all four balls register their canon colors automatically;
-neither mod requires it.
+---
 
-> Development preview -- in active development. Bug reports and ideas are
-> welcome in the repo's Issues; say which mod, include the version from
-> your load log, and list your other mods.
-
-## Note on releases
-
-Example Balls and shop_events share one repository and release together,
-so **both are retagged and re-zipped to the same version** even when only
-one of them changed.
+The original four balls, for reference: **Premier** (free with bulk ball
+purchases), **Nest**, **Moon** and **Heal**. All four are in Kanto Balls,
+alongside Fast, Mirror and the Silph prototype.
