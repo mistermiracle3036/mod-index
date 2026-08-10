@@ -1,19 +1,20 @@
 {
   "id": "example_balls",
-  "title": "Example Balls",
+  "title": "Example Balls (superseded)",
   "author": "Mister Miracle",
-  "summary": "Template mod adding four balls, each demonstrating a different mod-API pattern: Premier, Nest, Moon and Heal. Colors register into Pokeball Colors when installed.",
+  "summary": "Superseded by Kanto Balls - install that instead. Kept listed and frozen at 0.1.5 so existing installs still resolve.",
   "version": "0.1.5",
   "categories": ["LIBRARY", "CONTENT"],
-  "tags": ["template", "example", "pokeballs"],
+  "tags": ["template", "example", "pokeballs", "superseded"],
   "repo": "https://github.com/mistermiracle3036/Shop-Tools---Custom-Balls",
   "github": "mistermiracle3036/Shop-Tools---Custom-Balls",
-  "automatic_version_check": true,
+  "automatic_version_check": false,
+  "fixed_release_tag": "v0.1.5",
   "api": 2,
   "game_version": ">=0.1.38 <2.0.0",
   "profile": "content",
   "affects_link": false,
   "permissions": ["engine_internals"],
   "dependencies": ["shop_events"],
-  "conflicts": []
+  "conflicts": ["kanto_balls"]
 }

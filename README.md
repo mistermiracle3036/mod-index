@@ -34,8 +34,9 @@ same manifest checks.
 | **Kanto Contests** | *Alpha.* Ruby/Sapphire-style Contests in Celadon, scored on each move's contest category. |
 | **Pokeball Colors** | Per-ball colors for the battle ball toss under ADVANCED color mode. |
 | **Shop Events** | Library mod: emits `shop.purchased` at marts. |
-| **Example Balls** | Four template balls, each demonstrating a different mod-API pattern. Requires Shop Events. |
+| **Kanto Balls** | Seven new Poke Balls, each written as a readable template for your own. Requires Shop Events. |
 | **NPC Inspector** | Dev tool: shows the map id and `TEXT_` constant of any NPC you talk to. |
+| **Example Balls** | *Superseded by Kanto Balls.* Listed and frozen at 0.1.5 so existing installs still resolve. |
 
 ## How the feed is built
 

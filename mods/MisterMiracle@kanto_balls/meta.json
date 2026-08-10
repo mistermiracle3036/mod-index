@@ -1,0 +1,19 @@
+{
+  "id": "kanto_balls",
+  "title": "Kanto Balls",
+  "author": "Mister Miracle",
+  "summary": "Seven new Poke Balls for Kanto: Premier, Nest, Moon, Heal, Fast, Mirror and the Silph prototype. Each is written to be readable as a template for your own ball.",
+  "version": "0.3.2",
+  "categories": ["CONTENT", "LIBRARY"],
+  "tags": ["pokeballs", "catching", "items", "template"],
+  "repo": "https://github.com/mistermiracle3036/Shop-Tools---Custom-Balls",
+  "github": "mistermiracle3036/Shop-Tools---Custom-Balls",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.1.38 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": ["engine_internals"],
+  "dependencies": ["shop_events"],
+  "conflicts": ["example_balls"]
+}
