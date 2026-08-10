@@ -8,8 +8,9 @@ moves page.
 
 ## Features
 
-- **Seventeen ribbons**, earned several ways: story milestones, hard
-  training, flawless battles, lucky DVs, and one very expensive shop.
+- **Eighteen ribbons**, earned several ways: story milestones, hard
+  training, flawless battles, lucky DVs, a Contest win, and one very
+  expensive shop.
 - **Awarded automatically.** Nothing to toggle or claim. If a Pokemon
   qualifies, it already has the ribbon by the time you look.
 - **Retroactive on existing saves.** Most ribbons are recomputed from your
@@ -24,8 +25,11 @@ moves page.
 - **One self-contained package.** No engine files to replace, no companion
   downloads.
 
-Optional: recognises **Pokemon Snag** (the Snag ribbon) and Kanto
-Achievements when they are installed.
+Optional: recognises **Pokemon Snag** (the Snag Ribbon), **Kanto
+Contests** (the Cool Ribbon, for winning a COOL contest) and Kanto
+Achievements when they are installed. Contest wins are recorded on the
+POKeMON itself, so a Pokemon that won before you installed this still
+gets its ribbon on the next save load.
 
 > Development preview -- in active development. Bug reports and ideas are
 > welcome in the repo's Issues; please include the version from your load

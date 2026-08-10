@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-10T00:03:30.908Z",
-  "count": 6,
+  "generated_at": "2026-08-10T06:38:00.860Z",
+  "count": 7,
   "categories": [
     "GAMEPLAY",
     "CONTENT",
@@ -55,9 +55,55 @@
           "size": 8311
         }
       },
-      "downloads": 18,
+      "downloads": 27,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-09T01:25:43Z"
+    },
+    {
+      "folder": "MisterMiracle@kanto_contests",
+      "id": "kanto_contests",
+      "title": "Kanto Contests (Alpha)",
+      "author": "Mister Miracle",
+      "version": "0.7.5",
+      "summary": "ALPHA - Ruby/Sapphire-style Pokemon Contests in Kanto. Appeal to the judge in the Celadon Contest Hall, scored on each move's contest category rather than its damage.",
+      "categories": [
+        "CONTENT",
+        "GAMEPLAY"
+      ],
+      "tags": [
+        "contests",
+        "celadon",
+        "alpha"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Kanto-Contests",
+      "github": "mistermiracle3036/Kanto-Contests",
+      "api": 2,
+      "game_version": ">=0.1.75 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "update_check": "ok",
+      "description_url": "data/desc/kanto_contests.md",
+      "latest": {
+        "version": "0.7.5",
+        "tag": "v0.7.5",
+        "name": "v0.7.5",
+        "prerelease": false,
+        "published_at": "2026-08-10T06:11:14Z",
+        "zip": {
+          "name": "kanto_contests-0.7.5.zip",
+          "url": "https://github.com/mistermiracle3036/Kanto-Contests/releases/download/v0.7.5/kanto_contests-0.7.5.zip",
+          "size": 21416
+        }
+      },
+      "downloads": 2,
+      "first_release": "2026-08-10T06:11:14Z",
+      "last_release": "2026-08-10T06:11:14Z"
     },
     {
       "folder": "MisterMiracle@kanto_ribbons",
@@ -65,7 +111,7 @@
       "title": "Kanto Ribbons",
       "author": "Mister Miracle",
       "version": "0.15.4",
-      "summary": "Seventeen per-Pokemon ribbons reimagined for Gen 1 - earned, bought, and bonded - awarded automatically and shown inside the status screen.",
+      "summary": "Eighteen per-Pokemon ribbons reimagined for Gen 1 - earned, bought, and bonded - awarded automatically and shown inside the status screen.",
       "categories": [
         "GAMEPLAY",
         "UI"
@@ -90,20 +136,20 @@
       "update_check": "ok",
       "description_url": "data/desc/kanto_ribbons.md",
       "latest": {
-        "version": "0.15.4",
-        "tag": "v0.15.4",
-        "name": "v0.15.4",
+        "version": "0.18.0",
+        "tag": "v0.18.0",
+        "name": "v0.18.0",
         "prerelease": false,
-        "published_at": "2026-08-09T07:08:31Z",
+        "published_at": "2026-08-10T06:03:05Z",
         "zip": {
-          "name": "kanto_ribbons-0.15.4.zip",
-          "url": "https://github.com/mistermiracle3036/kanto_ribbons/releases/download/v0.15.4/kanto_ribbons-0.15.4.zip",
-          "size": 38401
+          "name": "kanto_ribbons-0.18.0.zip",
+          "url": "https://github.com/mistermiracle3036/kanto_ribbons/releases/download/v0.18.0/kanto_ribbons-0.18.0.zip",
+          "size": 41932
         }
       },
-      "downloads": 47,
+      "downloads": 60,
       "first_release": "2026-08-08T14:50:46Z",
-      "last_release": "2026-08-09T07:08:31Z"
+      "last_release": "2026-08-10T06:03:05Z"
     },
     {
       "folder": "MisterMiracle@npc_inspector",
@@ -146,7 +192,7 @@
           "size": 6106
         }
       },
-      "downloads": 0,
+      "downloads": 3,
       "first_release": "2026-08-09T23:45:46Z",
       "last_release": "2026-08-09T23:45:46Z"
     },
@@ -191,7 +237,7 @@
           "size": 15167
         }
       },
-      "downloads": 201,
+      "downloads": 228,
       "first_release": "2026-08-08T15:29:22Z",
       "last_release": "2026-08-09T08:39:49Z"
     },
@@ -239,7 +285,7 @@
           "size": 42935
         }
       },
-      "downloads": 61,
+      "downloads": 73,
       "first_release": "2026-08-08T05:57:58Z",
       "last_release": "2026-08-08T20:31:26Z"
     },
@@ -284,7 +330,7 @@
           "size": 6114
         }
       },
-      "downloads": 17,
+      "downloads": 23,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-09T01:25:43Z"
     }
