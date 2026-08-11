@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-10T21:38:54.565Z",
+  "generated_at": "2026-08-11T09:44:26.163Z",
   "count": 8,
   "categories": [
     "GAMEPLAY",
@@ -110,7 +110,7 @@
           "size": 19015
         }
       },
-      "downloads": 20,
+      "downloads": 76,
       "first_release": "2026-08-10T14:55:01Z",
       "last_release": "2026-08-10T15:46:46Z"
     },
@@ -145,20 +145,20 @@
       "update_check": "ok",
       "description_url": "data/desc/kanto_contests.md",
       "latest": {
-        "version": "0.7.5",
-        "tag": "v0.7.5",
-        "name": "v0.7.5",
+        "version": "0.8.2",
+        "tag": "v0.8.2",
+        "name": "v0.8.2",
         "prerelease": false,
-        "published_at": "2026-08-10T06:11:14Z",
+        "published_at": "2026-08-10T23:16:30Z",
         "zip": {
-          "name": "kanto_contests-0.7.5.zip",
-          "url": "https://github.com/mistermiracle3036/Kanto-Contests/releases/download/v0.7.5/kanto_contests-0.7.5.zip",
-          "size": 21416
+          "name": "kanto_contests-0.8.2.zip",
+          "url": "https://github.com/mistermiracle3036/Kanto-Contests/releases/download/v0.8.2/kanto_contests-0.8.2.zip",
+          "size": 31250
         }
       },
-      "downloads": 5,
+      "downloads": 8,
       "first_release": "2026-08-10T06:11:14Z",
-      "last_release": "2026-08-10T06:11:14Z"
+      "last_release": "2026-08-10T23:16:30Z"
     },
     {
       "folder": "MisterMiracle@kanto_ribbons",
@@ -191,20 +191,20 @@
       "update_check": "ok",
       "description_url": "data/desc/kanto_ribbons.md",
       "latest": {
-        "version": "0.18.0",
-        "tag": "v0.18.0",
-        "name": "v0.18.0",
+        "version": "0.20.3",
+        "tag": "v0.20.3",
+        "name": "v0.20.3",
         "prerelease": false,
-        "published_at": "2026-08-10T06:03:05Z",
+        "published_at": "2026-08-10T21:56:04Z",
         "zip": {
-          "name": "kanto_ribbons-0.18.0.zip",
-          "url": "https://github.com/mistermiracle3036/kanto_ribbons/releases/download/v0.18.0/kanto_ribbons-0.18.0.zip",
-          "size": 41932
+          "name": "kanto_ribbons-0.20.3.zip",
+          "url": "https://github.com/mistermiracle3036/kanto_ribbons/releases/download/v0.20.3/kanto_ribbons-0.20.3.zip",
+          "size": 49587
         }
       },
-      "downloads": 82,
+      "downloads": 107,
       "first_release": "2026-08-08T14:50:46Z",
-      "last_release": "2026-08-10T06:03:05Z"
+      "last_release": "2026-08-10T21:56:04Z"
     },
     {
       "folder": "MisterMiracle@npc_inspector",
@@ -292,7 +292,7 @@
           "size": 15167
         }
       },
-      "downloads": 253,
+      "downloads": 294,
       "first_release": "2026-08-08T15:29:22Z",
       "last_release": "2026-08-09T08:39:49Z"
     },
@@ -329,20 +329,20 @@
       "update_check": "ok",
       "description_url": "data/desc/snag_quest.md",
       "latest": {
-        "version": "0.11.7",
-        "tag": "v0.11.7",
-        "name": "v0.11.7",
+        "version": "0.14.11",
+        "tag": "v0.14.11",
+        "name": "v0.14.11",
         "prerelease": false,
-        "published_at": "2026-08-08T20:31:26Z",
+        "published_at": "2026-08-11T02:02:33Z",
         "zip": {
-          "name": "snag_quest-0.11.7.zip",
-          "url": "https://github.com/mistermiracle3036/Pokemon-Snag/releases/download/v0.11.7/snag_quest-0.11.7.zip",
-          "size": 42935
+          "name": "snag_quest-0.14.11.zip",
+          "url": "https://github.com/mistermiracle3036/Pokemon-Snag/releases/download/v0.14.11/snag_quest-0.14.11.zip",
+          "size": 66449
         }
       },
-      "downloads": 82,
+      "downloads": 112,
       "first_release": "2026-08-08T05:57:58Z",
-      "last_release": "2026-08-08T20:31:26Z"
+      "last_release": "2026-08-11T02:02:33Z"
     },
     {
       "folder": "MisterMiracle@shop_events",
@@ -385,7 +385,7 @@
           "size": 6113
         }
       },
-      "downloads": 47,
+      "downloads": 95,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-10T15:46:46Z"
     }
