@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-11T09:44:26.163Z",
+  "generated_at": "2026-08-12T09:50:01.792Z",
   "count": 8,
   "categories": [
     "GAMEPLAY",
@@ -54,11 +54,11 @@
         "published_at": "2026-08-09T01:25:43Z",
         "zip": {
           "name": "example_balls-0.1.5.zip",
-          "url": "https://github.com/mistermiracle3036/Kanto-Balls/releases/download/v0.1.5/example_balls-0.1.5.zip",
+          "url": "https://github.com/mistermiracle3036/Too-Many-Balls/releases/download/v0.1.5/example_balls-0.1.5.zip",
           "size": 8311
         }
       },
-      "downloads": 31,
+      "downloads": 34,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-09T01:25:43Z"
     },
@@ -99,20 +99,20 @@
       "description_url": "data/desc/kanto_balls.md",
       "thumbnail": "data/thumb/kanto_balls.png",
       "latest": {
-        "version": "0.3.4",
-        "tag": "v0.3.4",
-        "name": "Kanto Balls 0.3.4",
+        "version": "0.4.7",
+        "tag": "v0.4.7",
+        "name": "Too Many Balls 0.4.7",
         "prerelease": false,
-        "published_at": "2026-08-10T15:46:46Z",
+        "published_at": "2026-08-12T04:06:07Z",
         "zip": {
-          "name": "kanto_balls-0.3.4.zip",
-          "url": "https://github.com/mistermiracle3036/Kanto-Balls/releases/download/v0.3.4/kanto_balls-0.3.4.zip",
-          "size": 19015
+          "name": "kanto_balls-0.4.7.zip",
+          "url": "https://github.com/mistermiracle3036/Too-Many-Balls/releases/download/v0.4.7/kanto_balls-0.4.7.zip",
+          "size": 35715
         }
       },
-      "downloads": 76,
+      "downloads": 186,
       "first_release": "2026-08-10T14:55:01Z",
-      "last_release": "2026-08-10T15:46:46Z"
+      "last_release": "2026-08-12T04:06:07Z"
     },
     {
       "folder": "MisterMiracle@kanto_contests",
@@ -156,7 +156,7 @@
           "size": 31250
         }
       },
-      "downloads": 8,
+      "downloads": 13,
       "first_release": "2026-08-10T06:11:14Z",
       "last_release": "2026-08-10T23:16:30Z"
     },
@@ -191,20 +191,20 @@
       "update_check": "ok",
       "description_url": "data/desc/kanto_ribbons.md",
       "latest": {
-        "version": "0.20.3",
-        "tag": "v0.20.3",
-        "name": "v0.20.3",
+        "version": "0.21.4",
+        "tag": "v0.21.4",
+        "name": "v0.21.4",
         "prerelease": false,
-        "published_at": "2026-08-10T21:56:04Z",
+        "published_at": "2026-08-12T04:17:26Z",
         "zip": {
-          "name": "kanto_ribbons-0.20.3.zip",
-          "url": "https://github.com/mistermiracle3036/kanto_ribbons/releases/download/v0.20.3/kanto_ribbons-0.20.3.zip",
-          "size": 49587
+          "name": "kanto_ribbons-0.21.4.zip",
+          "url": "https://github.com/mistermiracle3036/Ribbons/releases/download/v0.21.4/kanto_ribbons-0.21.4.zip",
+          "size": 61605
         }
       },
-      "downloads": 107,
+      "downloads": 129,
       "first_release": "2026-08-08T14:50:46Z",
-      "last_release": "2026-08-10T21:56:04Z"
+      "last_release": "2026-08-12T04:17:26Z"
     },
     {
       "folder": "MisterMiracle@npc_inspector",
@@ -247,7 +247,7 @@
           "size": 6106
         }
       },
-      "downloads": 3,
+      "downloads": 4,
       "first_release": "2026-08-09T23:45:46Z",
       "last_release": "2026-08-09T23:45:46Z"
     },
@@ -281,20 +281,20 @@
       "update_check": "ok",
       "description_url": "data/desc/pokeball_colors.md",
       "latest": {
-        "version": "0.1.13",
-        "tag": "v0.1.13",
-        "name": "v0.1.13",
+        "version": "0.1.23",
+        "tag": "v0.1.23",
+        "name": "v0.1.23",
         "prerelease": false,
-        "published_at": "2026-08-09T08:39:49Z",
+        "published_at": "2026-08-12T04:15:40Z",
         "zip": {
-          "name": "pokeball_colors-0.1.13.zip",
-          "url": "https://github.com/mistermiracle3036/Pokeball-Colors/releases/download/v0.1.13/pokeball_colors-0.1.13.zip",
-          "size": 15167
+          "name": "pokeball_colors-0.1.23.zip",
+          "url": "https://github.com/mistermiracle3036/Pokeball-Colors/releases/download/v0.1.23/pokeball_colors-0.1.23.zip",
+          "size": 28941
         }
       },
-      "downloads": 294,
+      "downloads": 382,
       "first_release": "2026-08-08T15:29:22Z",
-      "last_release": "2026-08-09T08:39:49Z"
+      "last_release": "2026-08-12T04:15:40Z"
     },
     {
       "folder": "MisterMiracle@snag_quest",
@@ -340,7 +340,7 @@
           "size": 66449
         }
       },
-      "downloads": 112,
+      "downloads": 209,
       "first_release": "2026-08-08T05:57:58Z",
       "last_release": "2026-08-11T02:02:33Z"
     },
@@ -374,20 +374,20 @@
       "update_check": "ok",
       "description_url": "data/desc/shop_events.md",
       "latest": {
-        "version": "0.3.4",
-        "tag": "v0.3.4",
-        "name": "Kanto Balls 0.3.4",
+        "version": "0.4.7",
+        "tag": "v0.4.7",
+        "name": "Too Many Balls 0.4.7",
         "prerelease": false,
-        "published_at": "2026-08-10T15:46:46Z",
+        "published_at": "2026-08-12T04:06:07Z",
         "zip": {
-          "name": "shop_events-0.3.4.zip",
-          "url": "https://github.com/mistermiracle3036/Kanto-Balls/releases/download/v0.3.4/shop_events-0.3.4.zip",
-          "size": 6113
+          "name": "shop_events-0.4.7.zip",
+          "url": "https://github.com/mistermiracle3036/Too-Many-Balls/releases/download/v0.4.7/shop_events-0.4.7.zip",
+          "size": 8373
         }
       },
-      "downloads": 95,
+      "downloads": 177,
       "first_release": "2026-08-09T01:25:43Z",
-      "last_release": "2026-08-10T15:46:46Z"
+      "last_release": "2026-08-12T04:06:07Z"
     }
   ]
 }
