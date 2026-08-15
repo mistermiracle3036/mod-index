@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-14T09:45:01.943Z",
+  "generated_at": "2026-08-15T07:47:11.488Z",
   "count": 8,
   "categories": [
     "GAMEPLAY",
@@ -99,20 +99,20 @@
       "description_url": "data/desc/kanto_balls.md",
       "thumbnail": "data/thumb/kanto_balls.png",
       "latest": {
-        "version": "0.4.30",
-        "tag": "v0.4.30",
-        "name": "Too Many Balls 0.4.30",
+        "version": "0.6.1",
+        "tag": "v0.6.1",
+        "name": "Too Many Balls 0.6.1",
         "prerelease": false,
-        "published_at": "2026-08-14T01:13:37Z",
+        "published_at": "2026-08-14T16:48:37Z",
         "zip": {
-          "name": "kanto_balls-0.4.30.zip",
-          "url": "https://github.com/mistermiracle3036/Too-Many-Balls/releases/download/v0.4.30/kanto_balls-0.4.30.zip",
-          "size": 64966
+          "name": "kanto_balls-0.6.1.zip",
+          "url": "https://github.com/mistermiracle3036/Too-Many-Balls/releases/download/v0.6.1/kanto_balls-0.6.1.zip",
+          "size": 67047
         }
       },
-      "downloads": 308,
+      "downloads": 410,
       "first_release": "2026-08-10T14:55:01Z",
-      "last_release": "2026-08-14T01:13:37Z"
+      "last_release": "2026-08-14T16:48:37Z"
     },
     {
       "folder": "MisterMiracle@kanto_contests",
@@ -202,7 +202,7 @@
           "size": 61605
         }
       },
-      "downloads": 174,
+      "downloads": 181,
       "first_release": "2026-08-08T14:50:46Z",
       "last_release": "2026-08-12T04:17:26Z"
     },
@@ -247,7 +247,7 @@
           "size": 6106
         }
       },
-      "downloads": 5,
+      "downloads": 6,
       "first_release": "2026-08-09T23:45:46Z",
       "last_release": "2026-08-09T23:45:46Z"
     },
@@ -292,7 +292,7 @@
           "size": 33407
         }
       },
-      "downloads": 657,
+      "downloads": 738,
       "first_release": "2026-08-08T15:29:22Z",
       "last_release": "2026-08-13T20:47:01Z"
     },
@@ -329,20 +329,20 @@
       "update_check": "ok",
       "description_url": "data/desc/snag_quest.md",
       "latest": {
-        "version": "0.14.11",
-        "tag": "v0.14.11",
-        "name": "v0.14.11",
+        "version": "0.15.9",
+        "tag": "v0.15.9",
+        "name": "v0.15.9",
         "prerelease": false,
-        "published_at": "2026-08-11T02:02:33Z",
+        "published_at": "2026-08-14T21:55:35Z",
         "zip": {
-          "name": "snag_quest-0.14.11.zip",
-          "url": "https://github.com/mistermiracle3036/Pokemon-Snag/releases/download/v0.14.11/snag_quest-0.14.11.zip",
-          "size": 66449
+          "name": "snag_quest-0.15.9.zip",
+          "url": "https://github.com/mistermiracle3036/Pokemon-Snag/releases/download/v0.15.9/snag_quest-0.15.9.zip",
+          "size": 108040
         }
       },
-      "downloads": 315,
+      "downloads": 386,
       "first_release": "2026-08-08T05:57:58Z",
-      "last_release": "2026-08-11T02:02:33Z"
+      "last_release": "2026-08-14T21:55:35Z"
     },
     {
       "folder": "MisterMiracle@shop_events",
@@ -374,20 +374,20 @@
       "update_check": "ok",
       "description_url": "data/desc/shop_events.md",
       "latest": {
-        "version": "0.4.30",
-        "tag": "v0.4.30",
-        "name": "Too Many Balls 0.4.30",
+        "version": "0.6.1",
+        "tag": "v0.6.1",
+        "name": "Too Many Balls 0.6.1",
         "prerelease": false,
-        "published_at": "2026-08-14T01:13:37Z",
+        "published_at": "2026-08-14T16:48:37Z",
         "zip": {
-          "name": "shop_events-0.4.30.zip",
-          "url": "https://github.com/mistermiracle3036/Too-Many-Balls/releases/download/v0.4.30/shop_events-0.4.30.zip",
-          "size": 8639
+          "name": "shop_events-0.6.1.zip",
+          "url": "https://github.com/mistermiracle3036/Too-Many-Balls/releases/download/v0.6.1/shop_events-0.6.1.zip",
+          "size": 9165
         }
       },
-      "downloads": 338,
+      "downloads": 454,
       "first_release": "2026-08-09T01:25:43Z",
-      "last_release": "2026-08-14T01:13:37Z"
+      "last_release": "2026-08-14T16:48:37Z"
     }
   ]
 }
