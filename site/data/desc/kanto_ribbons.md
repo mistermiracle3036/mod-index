@@ -1,10 +1,11 @@
-Permanent, per-Pokemon **ribbons** for gen1recomp (Red / Blue / Yellow),
-reimagined from the Generation III-IX ribbon system for things Gen 1
-actually simulates.
+Permanent, per-Pokemon **ribbons** for gen1recomp -- Red, Blue, Yellow
+and **Gold** -- reimagined from the Generation III-IX ribbon system for
+things these games actually simulate.
 
 Ribbons live on the Pokemon itself, so they survive boxing, evolution and
 trades, and they open straight from the status screen: press A past the
-moves page.
+last page. On Gold they sit as a fourth page, so left and right reach
+them too.
 
 ## Features
 

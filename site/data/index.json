@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T07:49:25.502Z",
-  "count": 8,
+  "generated_at": "2026-08-16T19:28:09.671Z",
+  "count": 11,
   "categories": [
     "GAMEPLAY",
     "CONTENT",
@@ -63,6 +63,154 @@
       "last_release": "2026-08-09T01:25:43Z"
     },
     {
+      "folder": "MisterMiracle@expanded_species",
+      "id": "expanded_species",
+      "title": "Expanded Species (framework, Gold only)",
+      "author": "Mister Miracle",
+      "version": "0.6.4",
+      "summary": "POKeMON GOLD ONLY. A framework for custom species above #255 - it adds no POKeMON itself; species packs built on it do. Uncapped encounters, trainer helpers and missing-pack save protection.",
+      "categories": [
+        "LIBRARY",
+        "CONTENT"
+      ],
+      "tags": [
+        "framework",
+        "modding-tool",
+        "custom species",
+        "gold only",
+        "gen2"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Expanded-Species",
+      "github": "mistermiracle3036/Expanded-Species",
+      "api": 2,
+      "game_version": ">=0.1.94 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "update_check": "ok",
+      "license": "MIT",
+      "description_url": "data/desc/expanded_species.md",
+      "latest": {
+        "version": "0.6.4",
+        "tag": "v0.6.4",
+        "name": "v0.6.4",
+        "prerelease": false,
+        "published_at": "2026-08-16T19:17:55Z",
+        "zip": {
+          "name": "expanded_species-0.6.4.zip",
+          "url": "https://github.com/mistermiracle3036/Expanded-Species/releases/download/v0.6.4/expanded_species-0.6.4.zip",
+          "size": 56721
+        }
+      },
+      "downloads": 0,
+      "first_release": "2026-08-16T19:17:55Z",
+      "last_release": "2026-08-16T19:17:55Z"
+    },
+    {
+      "folder": "MisterMiracle@gold_records",
+      "id": "gold_records",
+      "title": "Gold Records (Alpha, Gold only)",
+      "author": "Mister Miracle",
+      "version": "0.4.2",
+      "summary": "POKeMON GOLD ONLY. ALPHA - ROXIE came to JOHTO for a music scene, found temple bells and a sleeping WOOPER, and is starting a band out of spite. You are her manager.",
+      "categories": [
+        "CONTENT",
+        "GAMEPLAY"
+      ],
+      "tags": [
+        "quest",
+        "music",
+        "johto",
+        "gen2",
+        "gold only",
+        "alpha"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Gold-Records",
+      "github": "mistermiracle3036/Gold-Records",
+      "api": 2,
+      "game_version": ">=0.1.78 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "update_check": "ok",
+      "license": "MIT",
+      "description_url": "data/desc/gold_records.md",
+      "latest": {
+        "version": "0.4.2",
+        "tag": "v0.4.2",
+        "name": "v0.4.2",
+        "prerelease": false,
+        "published_at": "2026-08-14T00:38:54Z",
+        "zip": {
+          "name": "gold_records-0.4.2.zip",
+          "url": "https://github.com/mistermiracle3036/Gold-Records/releases/download/v0.4.2/gold_records-0.4.2.zip",
+          "size": 25140
+        }
+      },
+      "downloads": 12,
+      "first_release": "2026-08-14T00:38:54Z",
+      "last_release": "2026-08-14T00:38:54Z"
+    },
+    {
+      "folder": "MisterMiracle@indigo_conference",
+      "id": "indigo_conference",
+      "title": "Indigo Plateau Conference (Gold only)",
+      "author": "Mister Miracle",
+      "version": "1.0.2",
+      "summary": "POKeMON GOLD ONLY. A repeatable tournament circuit for JOHTO - four rounds of guest challengers in the unused upstairs room of five POKeMON CENTERs, badge-gated, ending at the Indigo Plateau.",
+      "categories": [
+        "CONTENT",
+        "GAMEPLAY"
+      ],
+      "tags": [
+        "tournament",
+        "battles",
+        "johto",
+        "gen2",
+        "gold only"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Indigo-Plateau-Conference",
+      "github": "mistermiracle3036/Indigo-Plateau-Conference",
+      "api": 2,
+      "game_version": ">=0.1.78 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "update_check": "ok",
+      "license": "MIT",
+      "description_url": "data/desc/indigo_conference.md",
+      "latest": {
+        "version": "1.0.2",
+        "tag": "v1.0.2",
+        "name": "v1.0.2",
+        "prerelease": false,
+        "published_at": "2026-08-14T02:35:18Z",
+        "zip": {
+          "name": "indigo_conference-1.0.2.zip",
+          "url": "https://github.com/mistermiracle3036/Indigo-Plateau-Conference/releases/download/v1.0.2/indigo_conference-1.0.2.zip",
+          "size": 56357
+        }
+      },
+      "downloads": 27,
+      "first_release": "2026-08-14T02:24:01Z",
+      "last_release": "2026-08-14T02:35:18Z"
+    },
+    {
       "folder": "MisterMiracle@kanto_balls",
       "id": "kanto_balls",
       "title": "Kanto Balls",
@@ -79,8 +227,8 @@
         "items",
         "template"
       ],
-      "repo": "https://github.com/mistermiracle3036/Kanto-Balls",
-      "github": "mistermiracle3036/Kanto-Balls",
+      "repo": "https://github.com/mistermiracle3036/Too-Many-Balls",
+      "github": "mistermiracle3036/Too-Many-Balls",
       "api": 2,
       "game_version": ">=0.1.38 <2.0.0",
       "profile": "content",
@@ -110,7 +258,7 @@
           "size": 67047
         }
       },
-      "downloads": 442,
+      "downloads": 456,
       "first_release": "2026-08-10T14:55:01Z",
       "last_release": "2026-08-14T16:48:37Z"
     },
@@ -159,52 +307,6 @@
       "downloads": 19,
       "first_release": "2026-08-10T06:11:14Z",
       "last_release": "2026-08-10T23:16:30Z"
-    },
-    {
-      "folder": "MisterMiracle@kanto_ribbons",
-      "id": "kanto_ribbons",
-      "title": "Kanto Ribbons",
-      "author": "Mister Miracle",
-      "version": "0.15.4",
-      "summary": "Eighteen per-Pokemon ribbons reimagined for Gen 1 - earned, bought, and bonded - awarded automatically and shown inside the status screen.",
-      "categories": [
-        "GAMEPLAY",
-        "UI"
-      ],
-      "tags": [
-        "ribbons",
-        "collection",
-        "status screen"
-      ],
-      "repo": "https://github.com/mistermiracle3036/kanto_ribbons",
-      "github": "mistermiracle3036/kanto_ribbons",
-      "api": 2,
-      "game_version": ">=0.1.38 <2.0.0",
-      "profile": "content",
-      "affects_link": false,
-      "experimental": false,
-      "permissions": [
-        "engine_internals"
-      ],
-      "dependencies": [],
-      "conflicts": [],
-      "update_check": "ok",
-      "description_url": "data/desc/kanto_ribbons.md",
-      "latest": {
-        "version": "0.21.4",
-        "tag": "v0.21.4",
-        "name": "v0.21.4",
-        "prerelease": false,
-        "published_at": "2026-08-12T04:17:26Z",
-        "zip": {
-          "name": "kanto_ribbons-0.21.4.zip",
-          "url": "https://github.com/mistermiracle3036/Ribbons/releases/download/v0.21.4/kanto_ribbons-0.21.4.zip",
-          "size": 61605
-        }
-      },
-      "downloads": 186,
-      "first_release": "2026-08-08T14:50:46Z",
-      "last_release": "2026-08-12T04:17:26Z"
     },
     {
       "folder": "MisterMiracle@npc_inspector",
@@ -292,7 +394,7 @@
           "size": 33407
         }
       },
-      "downloads": 795,
+      "downloads": 812,
       "first_release": "2026-08-08T15:29:22Z",
       "last_release": "2026-08-13T20:47:01Z"
     },
@@ -340,9 +442,56 @@
           "size": 108040
         }
       },
-      "downloads": 452,
+      "downloads": 477,
       "first_release": "2026-08-08T05:57:58Z",
       "last_release": "2026-08-14T21:55:35Z"
+    },
+    {
+      "folder": "MisterMiracle@kanto_ribbons",
+      "id": "kanto_ribbons",
+      "title": "Ribbons",
+      "author": "Mister Miracle",
+      "version": "0.21.4",
+      "summary": "Eighteen per-Pokemon ribbons for Red/Blue/Yellow and Gold - earned, bought, and bonded - awarded automatically and shown inside the status screen.",
+      "categories": [
+        "GAMEPLAY",
+        "UI"
+      ],
+      "tags": [
+        "ribbons",
+        "collection",
+        "status screen",
+        "gen2"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Ribbons",
+      "github": "mistermiracle3036/Ribbons",
+      "api": 2,
+      "game_version": ">=0.1.38 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "update_check": "ok",
+      "description_url": "data/desc/kanto_ribbons.md",
+      "latest": {
+        "version": "0.21.4",
+        "tag": "v0.21.4",
+        "name": "v0.21.4",
+        "prerelease": false,
+        "published_at": "2026-08-12T04:17:26Z",
+        "zip": {
+          "name": "kanto_ribbons-0.21.4.zip",
+          "url": "https://github.com/mistermiracle3036/Ribbons/releases/download/v0.21.4/kanto_ribbons-0.21.4.zip",
+          "size": 61605
+        }
+      },
+      "downloads": 187,
+      "first_release": "2026-08-08T14:50:46Z",
+      "last_release": "2026-08-12T04:17:26Z"
     },
     {
       "folder": "MisterMiracle@shop_events",
@@ -359,8 +508,8 @@
         "api",
         "shops"
       ],
-      "repo": "https://github.com/mistermiracle3036/Kanto-Balls",
-      "github": "mistermiracle3036/Kanto-Balls",
+      "repo": "https://github.com/mistermiracle3036/Too-Many-Balls",
+      "github": "mistermiracle3036/Too-Many-Balls",
       "api": 2,
       "game_version": ">=0.1.38 <2.0.0",
       "profile": "content",
@@ -385,7 +534,7 @@
           "size": 9165
         }
       },
-      "downloads": 501,
+      "downloads": 516,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-14T16:48:37Z"
     }
