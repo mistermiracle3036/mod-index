@@ -1,0 +1,20 @@
+{
+  "id": "expanded_species",
+  "title": "Expanded Species (framework, Gold only)",
+  "author": "Mister Miracle",
+  "summary": "POKeMON GOLD ONLY. A framework for custom species above #255 - it adds no POKeMON itself; species packs built on it do. Uncapped encounters, trainer helpers and missing-pack save protection.",
+  "version": "0.6.4",
+  "categories": ["LIBRARY", "CONTENT"],
+  "tags": ["framework", "modding-tool", "custom species", "gold only", "gen2"],
+  "repo": "https://github.com/mistermiracle3036/Expanded-Species",
+  "github": "mistermiracle3036/Expanded-Species",
+  "automatic_version_check": true,
+  "license": "MIT",
+  "api": 2,
+  "game_version": ">=0.1.94 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": ["engine_internals"],
+  "dependencies": [],
+  "conflicts": []
+}
