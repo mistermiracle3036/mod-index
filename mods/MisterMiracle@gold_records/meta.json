@@ -1,0 +1,20 @@
+{
+  "id": "gold_records",
+  "title": "Gold Records (Alpha, Gold only)",
+  "author": "Mister Miracle",
+  "summary": "POKeMON GOLD ONLY. ALPHA - ROXIE came to JOHTO for a music scene, found temple bells and a sleeping WOOPER, and is starting a band out of spite. You are her manager.",
+  "version": "0.4.2",
+  "categories": ["CONTENT", "GAMEPLAY"],
+  "tags": ["quest", "music", "johto", "gen2", "gold only", "alpha"],
+  "repo": "https://github.com/mistermiracle3036/Gold-Records",
+  "github": "mistermiracle3036/Gold-Records",
+  "automatic_version_check": true,
+  "license": "MIT",
+  "api": 2,
+  "game_version": ">=0.1.78 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": ["engine_internals"],
+  "dependencies": [],
+  "conflicts": []
+}
