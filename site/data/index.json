@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-25T08:23:48.678Z",
+  "generated_at": "2026-08-26T08:24:42.681Z",
   "count": 11,
   "categories": [
     "GAMEPLAY",
@@ -96,20 +96,20 @@
       "license": "MIT",
       "description_url": "data/desc/expanded_species.md",
       "latest": {
-        "version": "0.6.5",
-        "tag": "v0.6.5",
-        "name": "v0.6.5",
+        "version": "0.6.6",
+        "tag": "v0.6.6",
+        "name": "v0.6.6",
         "prerelease": false,
-        "published_at": "2026-08-16T19:40:49Z",
+        "published_at": "2026-08-26T02:58:59Z",
         "zip": {
-          "name": "expanded_species-0.6.5.zip",
-          "url": "https://github.com/mistermiracle3036/Expanded-Species/releases/download/v0.6.5/expanded_species-0.6.5.zip",
-          "size": 57375
+          "name": "expanded_species-0.6.6.zip",
+          "url": "https://github.com/mistermiracle3036/Expanded-Species/releases/download/v0.6.6/expanded_species-0.6.6.zip",
+          "size": 60003
         }
       },
-      "downloads": 46,
+      "downloads": 51,
       "first_release": "2026-08-16T19:17:55Z",
-      "last_release": "2026-08-16T19:40:49Z"
+      "last_release": "2026-08-26T02:58:59Z"
     },
     {
       "folder": "MisterMiracle@gold_records",
@@ -157,7 +157,7 @@
           "size": 25140
         }
       },
-      "downloads": 17,
+      "downloads": 18,
       "first_release": "2026-08-14T00:38:54Z",
       "last_release": "2026-08-14T00:38:54Z"
     },
@@ -258,7 +258,7 @@
           "size": 67047
         }
       },
-      "downloads": 619,
+      "downloads": 629,
       "first_release": "2026-08-10T14:55:01Z",
       "last_release": "2026-08-14T16:48:37Z"
     },
@@ -394,7 +394,7 @@
           "size": 39025
         }
       },
-      "downloads": 1333,
+      "downloads": 1384,
       "first_release": "2026-08-08T15:29:22Z",
       "last_release": "2026-08-19T01:02:11Z"
     },
@@ -442,7 +442,7 @@
           "size": 108040
         }
       },
-      "downloads": 741,
+      "downloads": 762,
       "first_release": "2026-08-08T05:57:58Z",
       "last_release": "2026-08-14T21:55:35Z"
     },
@@ -489,7 +489,7 @@
           "size": 61605
         }
       },
-      "downloads": 231,
+      "downloads": 235,
       "first_release": "2026-08-08T14:50:46Z",
       "last_release": "2026-08-12T04:17:26Z"
     },
@@ -534,7 +534,7 @@
           "size": 9165
         }
       },
-      "downloads": 576,
+      "downloads": 577,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-14T16:48:37Z"
     }
