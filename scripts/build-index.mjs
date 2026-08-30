@@ -222,9 +222,11 @@ async function main() {
     }
   }
 
-  // Sorted by title: the launcher preserves feed order inside a filter, so
-  // the feed is where the ordering decision belongs.
-  mods.sort((a, b) => a.title.localeCompare(b.title));
+  // Sorted by downloads (most popular first), then by title as a tie-break.
+  // The launcher preserves feed order inside a filter, so the feed is where
+  // the ordering decision belongs.
+  mods.sort((a, b) => (b.downloads || 0) - (a.downloads || 0)
+    || a.title.localeCompare(b.title));
 
   const used = new Set(mods.flatMap((m) => m.categories));
   const doc = {

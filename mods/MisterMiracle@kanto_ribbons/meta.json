@@ -2,18 +2,10 @@
   "id": "kanto_ribbons",
   "title": "Ribbons",
   "author": "Mister Miracle",
-  "summary": "Eighteen per-Pokemon ribbons for Red/Blue/Yellow and Gold - earned, bought, and bonded - awarded automatically and shown inside the status screen.",
-  "version": "0.21.4",
-  "categories": [
-    "GAMEPLAY",
-    "UI"
-  ],
-  "tags": [
-    "ribbons",
-    "collection",
-    "status screen",
-    "gen2"
-  ],
+  "summary": "Nineteen per-Pokemon ribbons for Red/Blue/Yellow and Gold/Silver/Crystal - earned, bought, and bonded - awarded automatically and shown inside the status screen.",
+  "version": "0.22.1",
+  "categories": ["GAMEPLAY", "UI"],
+  "tags": ["ribbons", "collection", "status screen", "gen1", "gen2"],
   "repo": "https://github.com/mistermiracle3036/Ribbons",
   "github": "mistermiracle3036/Ribbons",
   "automatic_version_check": true,
@@ -21,9 +13,7 @@
   "game_version": ">=0.1.38 <2.0.0",
   "profile": "content",
   "affects_link": false,
-  "permissions": [
-    "engine_internals"
-  ],
+  "permissions": ["engine_internals"],
   "dependencies": [],
   "conflicts": []
 }
