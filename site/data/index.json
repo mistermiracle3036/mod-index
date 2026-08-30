@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-29T06:24:29.630Z",
+  "generated_at": "2026-08-30T03:58:21.665Z",
   "count": 11,
   "categories": [
     "GAMEPLAY",
@@ -12,24 +12,26 @@
   ],
   "mods": [
     {
-      "folder": "MisterMiracle@example_balls",
-      "id": "example_balls",
-      "title": "Example Balls (superseded)",
+      "folder": "MisterMiracle@pokeball_colors",
+      "id": "pokeball_colors",
+      "title": "Pokeball Colors",
       "author": "Mister Miracle",
-      "version": "0.1.5",
-      "summary": "Superseded by Kanto Balls - install that instead. Kept listed and frozen at 0.1.5 so existing installs still resolve.",
+      "version": "0.1.64",
+      "summary": "Per-ball throw, preview and heal-machine colors for Red/Blue/Yellow and Gold/Silver/Crystal. Includes a color editor on the PC where you design your own ball palettes.",
       "categories": [
-        "LIBRARY",
-        "CONTENT"
+        "ART",
+        "UI"
       ],
       "tags": [
-        "template",
-        "example",
+        "cosmetic",
+        "battle",
         "pokeballs",
-        "superseded"
+        "color editor",
+        "gen1",
+        "gen2"
       ],
-      "repo": "https://github.com/mistermiracle3036/Kanto-Balls",
-      "github": "mistermiracle3036/Kanto-Balls",
+      "repo": "https://github.com/mistermiracle3036/Pokeball-Colors",
+      "github": "mistermiracle3036/Pokeball-Colors",
       "api": 2,
       "game_version": ">=0.1.38 <2.0.0",
       "profile": "content",
@@ -38,37 +40,226 @@
       "permissions": [
         "engine_internals"
       ],
-      "dependencies": [
-        "shop_events"
-      ],
-      "conflicts": [
-        "kanto_balls"
-      ],
+      "dependencies": [],
+      "conflicts": [],
       "update_check": "ok",
-      "description_url": "data/desc/example_balls.md",
+      "description_url": "data/desc/pokeball_colors.md",
       "latest": {
-        "version": "0.1.5",
-        "tag": "v0.1.5",
-        "name": "Shop Tools - Custom Balls 0.1.5",
+        "version": "0.1.64",
+        "tag": "v0.1.64",
+        "name": "v0.1.64",
         "prerelease": false,
-        "published_at": "2026-08-09T01:25:43Z",
+        "published_at": "2026-08-30T02:51:19Z",
         "zip": {
-          "name": "example_balls-0.1.5.zip",
-          "url": "https://github.com/mistermiracle3036/Too-Many-Balls/releases/download/v0.1.5/example_balls-0.1.5.zip",
-          "size": 8311
+          "name": "pokeball_colors-0.1.64.zip",
+          "url": "https://github.com/mistermiracle3036/Pokeball-Colors/releases/download/v0.1.64/pokeball_colors-0.1.64.zip",
+          "size": 64875
         }
       },
-      "downloads": 36,
+      "downloads": 1487,
+      "first_release": "2026-08-08T15:29:22Z",
+      "last_release": "2026-08-30T02:51:19Z"
+    },
+    {
+      "folder": "MisterMiracle@snag_quest",
+      "id": "snag_quest",
+      "title": "Pokemon Snag",
+      "author": "Mister Miracle",
+      "version": "0.15.9",
+      "summary": "Steal Pokemon from other trainers with the SNAG BALL. On Red, earn it through Jessie's questline at Nugget Bridge. On Gold, a sailor in Cherrygrove starts you off with contracts across Johto. Fence what you take to black-market buyers.",
+      "categories": [
+        "GAMEPLAY",
+        "CONTENT"
+      ],
+      "tags": [
+        "quest",
+        "catching",
+        "team rocket",
+        "gen1",
+        "gen2"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Pokemon-Snag",
+      "github": "mistermiracle3036/Pokemon-Snag",
+      "api": 2,
+      "game_version": ">=0.1.38 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "update_check": "ok",
+      "description_url": "data/desc/snag_quest.md",
+      "latest": {
+        "version": "0.15.9",
+        "tag": "v0.15.9",
+        "name": "v0.15.9",
+        "prerelease": false,
+        "published_at": "2026-08-14T21:55:35Z",
+        "zip": {
+          "name": "snag_quest-0.15.9.zip",
+          "url": "https://github.com/mistermiracle3036/Pokemon-Snag/releases/download/v0.15.9/snag_quest-0.15.9.zip",
+          "size": 108040
+        }
+      },
+      "downloads": 809,
+      "first_release": "2026-08-08T05:57:58Z",
+      "last_release": "2026-08-14T21:55:35Z"
+    },
+    {
+      "folder": "MisterMiracle@kanto_balls",
+      "id": "kanto_balls",
+      "title": "Too Many Balls",
+      "author": "Mister Miracle",
+      "version": "0.8.7",
+      "summary": "Custom Poke Balls for Red/Blue/Yellow and Gold/Silver/Crystal. Twenty new balls including canon favorites, quest-only balls, and an Apricorn workbench with a Ball Case from Kurt.",
+      "categories": [
+        "CONTENT",
+        "GAMEPLAY"
+      ],
+      "tags": [
+        "pokeballs",
+        "catching",
+        "items",
+        "gen1",
+        "gen2"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Too-Many-Balls",
+      "github": "mistermiracle3036/Too-Many-Balls",
+      "api": 2,
+      "game_version": ">=0.1.38 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [
+        "example_balls"
+      ],
+      "update_check": "ok",
+      "description_url": "data/desc/kanto_balls.md",
+      "thumbnail": "data/thumb/kanto_balls.png",
+      "latest": {
+        "version": "0.8.7",
+        "tag": "v0.8.7",
+        "name": "Too Many Balls 0.8.7",
+        "prerelease": false,
+        "published_at": "2026-08-30T03:14:41Z",
+        "zip": {
+          "name": "kanto_balls-0.8.7.zip",
+          "url": "https://github.com/mistermiracle3036/Too-Many-Balls/releases/download/v0.8.7/kanto_balls-0.8.7.zip",
+          "size": 84351
+        }
+      },
+      "downloads": 665,
+      "first_release": "2026-08-10T14:55:01Z",
+      "last_release": "2026-08-30T03:14:41Z"
+    },
+    {
+      "folder": "MisterMiracle@shop_events",
+      "id": "shop_events",
+      "title": "Shop Events (bundled with Too Many Balls)",
+      "author": "Mister Miracle",
+      "version": "0.6.1",
+      "summary": "DEPRECATED - folded into Too Many Balls at 0.6.0. You can remove this if you have Too Many Balls installed. Library mod: emits a shop.purchased event whenever the player buys something at a mart.",
+      "categories": [
+        "LIBRARY"
+      ],
+      "tags": [
+        "library",
+        "api",
+        "shops",
+        "deprecated"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Too-Many-Balls",
+      "github": "mistermiracle3036/Too-Many-Balls",
+      "api": 2,
+      "game_version": ">=0.1.38 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "update_check": "ok",
+      "description_url": "data/desc/shop_events.md",
+      "latest": {
+        "version": "0.6.1",
+        "tag": "v0.6.1",
+        "name": "Too Many Balls 0.6.1",
+        "prerelease": false,
+        "published_at": "2026-08-14T16:48:37Z",
+        "zip": {
+          "name": "shop_events-0.6.1.zip",
+          "url": "https://github.com/mistermiracle3036/Too-Many-Balls/releases/download/v0.6.1/shop_events-0.6.1.zip",
+          "size": 9165
+        }
+      },
+      "downloads": 587,
       "first_release": "2026-08-09T01:25:43Z",
-      "last_release": "2026-08-09T01:25:43Z"
+      "last_release": "2026-08-30T03:14:41Z"
+    },
+    {
+      "folder": "MisterMiracle@kanto_ribbons",
+      "id": "kanto_ribbons",
+      "title": "Ribbons",
+      "author": "Mister Miracle",
+      "version": "0.22.1",
+      "summary": "Nineteen per-Pokemon ribbons for Red/Blue/Yellow and Gold/Silver/Crystal - earned, bought, and bonded - awarded automatically and shown inside the status screen.",
+      "categories": [
+        "GAMEPLAY",
+        "UI"
+      ],
+      "tags": [
+        "ribbons",
+        "collection",
+        "status screen",
+        "gen1",
+        "gen2"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Ribbons",
+      "github": "mistermiracle3036/Ribbons",
+      "api": 2,
+      "game_version": ">=0.1.38 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "update_check": "ok",
+      "description_url": "data/desc/kanto_ribbons.md",
+      "latest": {
+        "version": "0.21.4",
+        "tag": "v0.21.4",
+        "name": "v0.21.4",
+        "prerelease": false,
+        "published_at": "2026-08-12T04:17:26Z",
+        "zip": {
+          "name": "kanto_ribbons-0.21.4.zip",
+          "url": "https://github.com/mistermiracle3036/Ribbons/releases/download/v0.21.4/kanto_ribbons-0.21.4.zip",
+          "size": 61605
+        }
+      },
+      "downloads": 242,
+      "first_release": "2026-08-08T14:50:46Z",
+      "last_release": "2026-08-12T04:17:26Z"
     },
     {
       "folder": "MisterMiracle@expanded_species",
       "id": "expanded_species",
-      "title": "Expanded Species (framework, Gold only)",
+      "title": "Expanded Species",
       "author": "Mister Miracle",
-      "version": "0.6.4",
-      "summary": "POKeMON GOLD ONLY. A framework for custom species above #255 - it adds no POKeMON itself; species packs built on it do. Uncapped encounters, trainer helpers and missing-pack save protection.",
+      "version": "0.6.6",
+      "summary": "A framework for custom species above #255 on Gold/Silver/Crystal. It adds no Pokemon itself - species packs built on it do. Uncapped encounters, trainer helpers, cosmetic forms and missing-pack save protection.",
       "categories": [
         "LIBRARY",
         "CONTENT"
@@ -77,7 +268,6 @@
         "framework",
         "modding-tool",
         "custom species",
-        "gold only",
         "gen2"
       ],
       "repo": "https://github.com/mistermiracle3036/Expanded-Species",
@@ -107,67 +297,17 @@
           "size": 60003
         }
       },
-      "downloads": 66,
+      "downloads": 68,
       "first_release": "2026-08-16T19:17:55Z",
       "last_release": "2026-08-26T02:58:59Z"
     },
     {
-      "folder": "MisterMiracle@gold_records",
-      "id": "gold_records",
-      "title": "Gold Records (Alpha, Gold only)",
-      "author": "Mister Miracle",
-      "version": "0.4.2",
-      "summary": "POKeMON GOLD ONLY. ALPHA - ROXIE came to JOHTO for a music scene, found temple bells and a sleeping WOOPER, and is starting a band out of spite. You are her manager.",
-      "categories": [
-        "CONTENT",
-        "GAMEPLAY"
-      ],
-      "tags": [
-        "quest",
-        "music",
-        "johto",
-        "gen2",
-        "gold only",
-        "alpha"
-      ],
-      "repo": "https://github.com/mistermiracle3036/Gold-Records",
-      "github": "mistermiracle3036/Gold-Records",
-      "api": 2,
-      "game_version": ">=0.1.78 <2.0.0",
-      "profile": "content",
-      "affects_link": false,
-      "experimental": false,
-      "permissions": [
-        "engine_internals"
-      ],
-      "dependencies": [],
-      "conflicts": [],
-      "update_check": "ok",
-      "license": "MIT",
-      "description_url": "data/desc/gold_records.md",
-      "latest": {
-        "version": "0.4.2",
-        "tag": "v0.4.2",
-        "name": "v0.4.2",
-        "prerelease": false,
-        "published_at": "2026-08-14T00:38:54Z",
-        "zip": {
-          "name": "gold_records-0.4.2.zip",
-          "url": "https://github.com/mistermiracle3036/Gold-Records/releases/download/v0.4.2/gold_records-0.4.2.zip",
-          "size": 25140
-        }
-      },
-      "downloads": 18,
-      "first_release": "2026-08-14T00:38:54Z",
-      "last_release": "2026-08-14T00:38:54Z"
-    },
-    {
       "folder": "MisterMiracle@indigo_conference",
       "id": "indigo_conference",
-      "title": "Indigo Plateau Conference (Gold only)",
+      "title": "Indigo Plateau Conference",
       "author": "Mister Miracle",
       "version": "1.0.2",
-      "summary": "POKeMON GOLD ONLY. A repeatable tournament circuit for JOHTO - four rounds of guest challengers in the unused upstairs room of five POKeMON CENTERs, badge-gated, ending at the Indigo Plateau.",
+      "summary": "A repeatable tournament circuit for Gold/Silver/Crystal. Four rounds of guest challengers in the unused upstairs room of five Pokemon Centers, badge-gated, ending at the Indigo Plateau.",
       "categories": [
         "CONTENT",
         "GAMEPLAY"
@@ -176,8 +316,7 @@
         "tournament",
         "battles",
         "johto",
-        "gen2",
-        "gold only"
+        "gen2"
       ],
       "repo": "https://github.com/mistermiracle3036/Indigo-Plateau-Conference",
       "github": "mistermiracle3036/Indigo-Plateau-Conference",
@@ -211,21 +350,21 @@
       "last_release": "2026-08-14T02:35:18Z"
     },
     {
-      "folder": "MisterMiracle@kanto_balls",
-      "id": "kanto_balls",
-      "title": "Kanto Balls",
+      "folder": "MisterMiracle@example_balls",
+      "id": "example_balls",
+      "title": "Example Balls (superseded)",
       "author": "Mister Miracle",
-      "version": "0.3.2",
-      "summary": "Seven new Poke Balls for Kanto: Premier, Nest, Moon, Heal, Fast, Mirror and the Silph prototype. Each is written to be readable as a template for your own ball.",
+      "version": "0.1.5",
+      "summary": "Superseded by Too Many Balls - install that instead. Kept listed and frozen at 0.1.5 so existing installs still resolve.",
       "categories": [
-        "CONTENT",
-        "LIBRARY"
+        "LIBRARY",
+        "CONTENT"
       ],
       "tags": [
+        "template",
+        "example",
         "pokeballs",
-        "catching",
-        "items",
-        "template"
+        "superseded"
       ],
       "repo": "https://github.com/mistermiracle3036/Too-Many-Balls",
       "github": "mistermiracle3036/Too-Many-Balls",
@@ -241,34 +380,33 @@
         "shop_events"
       ],
       "conflicts": [
-        "example_balls"
+        "kanto_balls"
       ],
       "update_check": "ok",
-      "description_url": "data/desc/kanto_balls.md",
-      "thumbnail": "data/thumb/kanto_balls.png",
+      "description_url": "data/desc/example_balls.md",
       "latest": {
-        "version": "0.6.1",
-        "tag": "v0.6.1",
-        "name": "Too Many Balls 0.6.1",
+        "version": "0.1.5",
+        "tag": "v0.1.5",
+        "name": "Shop Tools - Custom Balls 0.1.5",
         "prerelease": false,
-        "published_at": "2026-08-14T16:48:37Z",
+        "published_at": "2026-08-09T01:25:43Z",
         "zip": {
-          "name": "kanto_balls-0.6.1.zip",
-          "url": "https://github.com/mistermiracle3036/Too-Many-Balls/releases/download/v0.6.1/kanto_balls-0.6.1.zip",
-          "size": 67047
+          "name": "example_balls-0.1.5.zip",
+          "url": "https://github.com/mistermiracle3036/Too-Many-Balls/releases/download/v0.1.5/example_balls-0.1.5.zip",
+          "size": 8311
         }
       },
-      "downloads": 649,
-      "first_release": "2026-08-10T14:55:01Z",
-      "last_release": "2026-08-14T16:48:37Z"
+      "downloads": 38,
+      "first_release": "2026-08-09T01:25:43Z",
+      "last_release": "2026-08-30T03:14:41Z"
     },
     {
       "folder": "MisterMiracle@kanto_contests",
       "id": "kanto_contests",
       "title": "Kanto Contests (Alpha)",
       "author": "Mister Miracle",
-      "version": "0.7.5",
-      "summary": "ALPHA - Ruby/Sapphire-style Pokemon Contests in Kanto. Appeal to the judge in the Celadon Contest Hall, scored on each move's contest category rather than its damage.",
+      "version": "0.15.0",
+      "summary": "ALPHA - Ruby/Sapphire-style Pokemon Contests in Kanto and Johto. Raise condition with PokeSnacks, earn contest scarves, then appeal in COOL, BEAUTY, CUTE, SMART or TOUGH. Wins are recorded per category on the Pokemon.",
       "categories": [
         "CONTENT",
         "GAMEPLAY"
@@ -276,7 +414,9 @@
       "tags": [
         "contests",
         "celadon",
-        "alpha"
+        "alpha",
+        "gen1",
+        "gen2"
       ],
       "repo": "https://github.com/mistermiracle3036/Kanto-Contests",
       "github": "mistermiracle3036/Kanto-Contests",
@@ -307,6 +447,55 @@
       "downloads": 20,
       "first_release": "2026-08-10T06:11:14Z",
       "last_release": "2026-08-10T23:16:30Z"
+    },
+    {
+      "folder": "MisterMiracle@gold_records",
+      "id": "gold_records",
+      "title": "Gold Records (Alpha)",
+      "author": "Mister Miracle",
+      "version": "0.4.2",
+      "summary": "ALPHA - ROXIE came to Johto for a music scene, found temple bells and a sleeping Wooper, and is starting a band out of spite. You are her manager. Gold/Silver/Crystal.",
+      "categories": [
+        "CONTENT",
+        "GAMEPLAY"
+      ],
+      "tags": [
+        "quest",
+        "music",
+        "johto",
+        "gen2",
+        "alpha"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Gold-Records",
+      "github": "mistermiracle3036/Gold-Records",
+      "api": 2,
+      "game_version": ">=0.1.78 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "update_check": "ok",
+      "license": "MIT",
+      "description_url": "data/desc/gold_records.md",
+      "latest": {
+        "version": "0.4.2",
+        "tag": "v0.4.2",
+        "name": "v0.4.2",
+        "prerelease": false,
+        "published_at": "2026-08-14T00:38:54Z",
+        "zip": {
+          "name": "gold_records-0.4.2.zip",
+          "url": "https://github.com/mistermiracle3036/Gold-Records/releases/download/v0.4.2/gold_records-0.4.2.zip",
+          "size": 25140
+        }
+      },
+      "downloads": 18,
+      "first_release": "2026-08-14T00:38:54Z",
+      "last_release": "2026-08-14T00:38:54Z"
     },
     {
       "folder": "MisterMiracle@npc_inspector",
@@ -352,191 +541,6 @@
       "downloads": 6,
       "first_release": "2026-08-09T23:45:46Z",
       "last_release": "2026-08-09T23:45:46Z"
-    },
-    {
-      "folder": "MisterMiracle@pokeball_colors",
-      "id": "pokeball_colors",
-      "title": "Pokeball Colors",
-      "author": "Mister Miracle",
-      "version": "0.1.13",
-      "summary": "Per-ball colors for the battle ball toss under ADVANCED color mode: all five native balls plus the nine Custom Poke Balls mod balls.",
-      "categories": [
-        "ART"
-      ],
-      "tags": [
-        "cosmetic",
-        "battle",
-        "pokeballs"
-      ],
-      "repo": "https://github.com/mistermiracle3036/Pokeball-Colors",
-      "github": "mistermiracle3036/Pokeball-Colors",
-      "api": 2,
-      "game_version": ">=0.1.38 <2.0.0",
-      "profile": "content",
-      "affects_link": false,
-      "experimental": false,
-      "permissions": [
-        "engine_internals"
-      ],
-      "dependencies": [],
-      "conflicts": [],
-      "update_check": "ok",
-      "description_url": "data/desc/pokeball_colors.md",
-      "latest": {
-        "version": "0.1.33",
-        "tag": "v0.1.33",
-        "name": "v0.1.33",
-        "prerelease": false,
-        "published_at": "2026-08-19T01:02:11Z",
-        "zip": {
-          "name": "pokeball_colors-0.1.33.zip",
-          "url": "https://github.com/mistermiracle3036/Pokeball-Colors/releases/download/v0.1.33/pokeball_colors-0.1.33.zip",
-          "size": 39025
-        }
-      },
-      "downloads": 1462,
-      "first_release": "2026-08-08T15:29:22Z",
-      "last_release": "2026-08-19T01:02:11Z"
-    },
-    {
-      "folder": "MisterMiracle@snag_quest",
-      "id": "snag_quest",
-      "title": "Pokemon Snag",
-      "author": "Mister Miracle",
-      "version": "0.11.7",
-      "summary": "Steal Pokemon from other trainers with the SNAG BALL. Earn it through Jessie's questline, or fence what you take to black-market buyers across Kanto.",
-      "categories": [
-        "GAMEPLAY",
-        "CONTENT"
-      ],
-      "tags": [
-        "quest",
-        "catching",
-        "team rocket"
-      ],
-      "repo": "https://github.com/mistermiracle3036/Pokemon-Snag",
-      "github": "mistermiracle3036/Pokemon-Snag",
-      "api": 2,
-      "game_version": ">=0.1.38 <2.0.0",
-      "profile": "content",
-      "affects_link": false,
-      "experimental": false,
-      "permissions": [
-        "engine_internals"
-      ],
-      "dependencies": [
-        "quest_system"
-      ],
-      "conflicts": [],
-      "update_check": "ok",
-      "description_url": "data/desc/snag_quest.md",
-      "latest": {
-        "version": "0.15.9",
-        "tag": "v0.15.9",
-        "name": "v0.15.9",
-        "prerelease": false,
-        "published_at": "2026-08-14T21:55:35Z",
-        "zip": {
-          "name": "snag_quest-0.15.9.zip",
-          "url": "https://github.com/mistermiracle3036/Pokemon-Snag/releases/download/v0.15.9/snag_quest-0.15.9.zip",
-          "size": 108040
-        }
-      },
-      "downloads": 798,
-      "first_release": "2026-08-08T05:57:58Z",
-      "last_release": "2026-08-14T21:55:35Z"
-    },
-    {
-      "folder": "MisterMiracle@kanto_ribbons",
-      "id": "kanto_ribbons",
-      "title": "Ribbons",
-      "author": "Mister Miracle",
-      "version": "0.21.4",
-      "summary": "Eighteen per-Pokemon ribbons for Red/Blue/Yellow and Gold - earned, bought, and bonded - awarded automatically and shown inside the status screen.",
-      "categories": [
-        "GAMEPLAY",
-        "UI"
-      ],
-      "tags": [
-        "ribbons",
-        "collection",
-        "status screen",
-        "gen2"
-      ],
-      "repo": "https://github.com/mistermiracle3036/Ribbons",
-      "github": "mistermiracle3036/Ribbons",
-      "api": 2,
-      "game_version": ">=0.1.38 <2.0.0",
-      "profile": "content",
-      "affects_link": false,
-      "experimental": false,
-      "permissions": [
-        "engine_internals"
-      ],
-      "dependencies": [],
-      "conflicts": [],
-      "update_check": "ok",
-      "description_url": "data/desc/kanto_ribbons.md",
-      "latest": {
-        "version": "0.21.4",
-        "tag": "v0.21.4",
-        "name": "v0.21.4",
-        "prerelease": false,
-        "published_at": "2026-08-12T04:17:26Z",
-        "zip": {
-          "name": "kanto_ribbons-0.21.4.zip",
-          "url": "https://github.com/mistermiracle3036/Ribbons/releases/download/v0.21.4/kanto_ribbons-0.21.4.zip",
-          "size": 61605
-        }
-      },
-      "downloads": 241,
-      "first_release": "2026-08-08T14:50:46Z",
-      "last_release": "2026-08-12T04:17:26Z"
-    },
-    {
-      "folder": "MisterMiracle@shop_events",
-      "id": "shop_events",
-      "title": "Shop Events",
-      "author": "Mister Miracle",
-      "version": "0.3.2",
-      "summary": "Library mod: emits a shop.purchased event whenever the player buys something at a mart, since the engine has no purchase event of its own.",
-      "categories": [
-        "LIBRARY"
-      ],
-      "tags": [
-        "library",
-        "api",
-        "shops"
-      ],
-      "repo": "https://github.com/mistermiracle3036/Too-Many-Balls",
-      "github": "mistermiracle3036/Too-Many-Balls",
-      "api": 2,
-      "game_version": ">=0.1.38 <2.0.0",
-      "profile": "content",
-      "affects_link": false,
-      "experimental": false,
-      "permissions": [
-        "engine_internals"
-      ],
-      "dependencies": [],
-      "conflicts": [],
-      "update_check": "ok",
-      "description_url": "data/desc/shop_events.md",
-      "latest": {
-        "version": "0.6.1",
-        "tag": "v0.6.1",
-        "name": "Too Many Balls 0.6.1",
-        "prerelease": false,
-        "published_at": "2026-08-14T16:48:37Z",
-        "zip": {
-          "name": "shop_events-0.6.1.zip",
-          "url": "https://github.com/mistermiracle3036/Too-Many-Balls/releases/download/v0.6.1/shop_events-0.6.1.zip",
-          "size": 9165
-        }
-      },
-      "downloads": 583,
-      "first_release": "2026-08-09T01:25:43Z",
-      "last_release": "2026-08-14T16:48:37Z"
     }
   ]
 }
