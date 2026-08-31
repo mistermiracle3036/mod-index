@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-30T06:24:32.076Z",
+  "generated_at": "2026-08-31T06:24:36.002Z",
   "count": 11,
   "categories": [
     "GAMEPLAY",
@@ -56,7 +56,7 @@
           "size": 64875
         }
       },
-      "downloads": 1504,
+      "downloads": 1601,
       "first_release": "2026-08-08T15:29:22Z",
       "last_release": "2026-08-30T02:51:19Z"
     },
@@ -104,7 +104,7 @@
           "size": 108040
         }
       },
-      "downloads": 810,
+      "downloads": 825,
       "first_release": "2026-08-08T05:57:58Z",
       "last_release": "2026-08-14T21:55:35Z"
     },
@@ -144,20 +144,20 @@
       "description_url": "data/desc/kanto_balls.md",
       "thumbnail": "data/thumb/kanto_balls.png",
       "latest": {
-        "version": "0.8.7",
-        "tag": "v0.8.7",
-        "name": "Too Many Balls 0.8.7",
+        "version": "0.8.8",
+        "tag": "v0.8.8",
+        "name": "Too Many Balls 0.8.8",
         "prerelease": false,
-        "published_at": "2026-08-30T03:14:41Z",
+        "published_at": "2026-08-30T13:23:22Z",
         "zip": {
-          "name": "kanto_balls-0.8.7.zip",
-          "url": "https://github.com/mistermiracle3036/Too-Many-Balls/releases/download/v0.8.7/kanto_balls-0.8.7.zip",
-          "size": 84351
+          "name": "kanto_balls-0.8.8.zip",
+          "url": "https://github.com/mistermiracle3036/Too-Many-Balls/releases/download/v0.8.8/kanto_balls-0.8.8.zip",
+          "size": 85195
         }
       },
-      "downloads": 670,
+      "downloads": 718,
       "first_release": "2026-08-10T14:55:01Z",
-      "last_release": "2026-08-30T03:14:41Z"
+      "last_release": "2026-08-30T13:23:22Z"
     },
     {
       "folder": "MisterMiracle@shop_events",
@@ -201,9 +201,9 @@
           "size": 9165
         }
       },
-      "downloads": 593,
+      "downloads": 637,
       "first_release": "2026-08-09T01:25:43Z",
-      "last_release": "2026-08-30T03:14:41Z"
+      "last_release": "2026-08-30T13:23:22Z"
     },
     {
       "folder": "MisterMiracle@kanto_ribbons",
@@ -249,105 +249,9 @@
           "size": 61605
         }
       },
-      "downloads": 243,
+      "downloads": 246,
       "first_release": "2026-08-08T14:50:46Z",
       "last_release": "2026-08-12T04:17:26Z"
-    },
-    {
-      "folder": "MisterMiracle@expanded_species",
-      "id": "expanded_species",
-      "title": "Expanded Species",
-      "author": "Mister Miracle",
-      "version": "0.6.6",
-      "summary": "A framework for custom species above #255 on Gold/Silver/Crystal. It adds no Pokemon itself - species packs built on it do. Uncapped encounters, trainer helpers, cosmetic forms and missing-pack save protection.",
-      "categories": [
-        "LIBRARY",
-        "CONTENT"
-      ],
-      "tags": [
-        "framework",
-        "modding-tool",
-        "custom species",
-        "gen2"
-      ],
-      "repo": "https://github.com/mistermiracle3036/Expanded-Species",
-      "github": "mistermiracle3036/Expanded-Species",
-      "api": 2,
-      "game_version": ">=0.1.94 <2.0.0",
-      "profile": "content",
-      "affects_link": false,
-      "experimental": false,
-      "permissions": [
-        "engine_internals"
-      ],
-      "dependencies": [],
-      "conflicts": [],
-      "update_check": "ok",
-      "license": "MIT",
-      "description_url": "data/desc/expanded_species.md",
-      "latest": {
-        "version": "0.6.6",
-        "tag": "v0.6.6",
-        "name": "v0.6.6",
-        "prerelease": false,
-        "published_at": "2026-08-26T02:58:59Z",
-        "zip": {
-          "name": "expanded_species-0.6.6.zip",
-          "url": "https://github.com/mistermiracle3036/Expanded-Species/releases/download/v0.6.6/expanded_species-0.6.6.zip",
-          "size": 60003
-        }
-      },
-      "downloads": 70,
-      "first_release": "2026-08-16T19:17:55Z",
-      "last_release": "2026-08-26T02:58:59Z"
-    },
-    {
-      "folder": "MisterMiracle@indigo_conference",
-      "id": "indigo_conference",
-      "title": "Indigo Plateau Conference",
-      "author": "Mister Miracle",
-      "version": "1.0.2",
-      "summary": "A repeatable tournament circuit for Gold/Silver/Crystal. Four rounds of guest challengers in the unused upstairs room of five Pokemon Centers, badge-gated, ending at the Indigo Plateau.",
-      "categories": [
-        "CONTENT",
-        "GAMEPLAY"
-      ],
-      "tags": [
-        "tournament",
-        "battles",
-        "johto",
-        "gen2"
-      ],
-      "repo": "https://github.com/mistermiracle3036/Indigo-Plateau-Conference",
-      "github": "mistermiracle3036/Indigo-Plateau-Conference",
-      "api": 2,
-      "game_version": ">=0.1.78 <2.0.0",
-      "profile": "content",
-      "affects_link": false,
-      "experimental": false,
-      "permissions": [
-        "engine_internals"
-      ],
-      "dependencies": [],
-      "conflicts": [],
-      "update_check": "ok",
-      "license": "MIT",
-      "description_url": "data/desc/indigo_conference.md",
-      "latest": {
-        "version": "1.0.2",
-        "tag": "v1.0.2",
-        "name": "v1.0.2",
-        "prerelease": false,
-        "published_at": "2026-08-14T02:35:18Z",
-        "zip": {
-          "name": "indigo_conference-1.0.2.zip",
-          "url": "https://github.com/mistermiracle3036/Indigo-Plateau-Conference/releases/download/v1.0.2/indigo_conference-1.0.2.zip",
-          "size": 56357
-        }
-      },
-      "downloads": 63,
-      "first_release": "2026-08-14T02:24:01Z",
-      "last_release": "2026-08-14T02:35:18Z"
     },
     {
       "folder": "MisterMiracle@example_balls",
@@ -396,9 +300,105 @@
           "size": 8311
         }
       },
-      "downloads": 43,
+      "downloads": 86,
       "first_release": "2026-08-09T01:25:43Z",
-      "last_release": "2026-08-30T03:14:41Z"
+      "last_release": "2026-08-30T13:23:22Z"
+    },
+    {
+      "folder": "MisterMiracle@expanded_species",
+      "id": "expanded_species",
+      "title": "Expanded Species",
+      "author": "Mister Miracle",
+      "version": "0.6.6",
+      "summary": "A framework for custom species above #255 on Gold/Silver/Crystal. It adds no Pokemon itself - species packs built on it do. Uncapped encounters, trainer helpers, cosmetic forms and missing-pack save protection.",
+      "categories": [
+        "LIBRARY",
+        "CONTENT"
+      ],
+      "tags": [
+        "framework",
+        "modding-tool",
+        "custom species",
+        "gen2"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Expanded-Species",
+      "github": "mistermiracle3036/Expanded-Species",
+      "api": 2,
+      "game_version": ">=0.1.94 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "update_check": "ok",
+      "license": "MIT",
+      "description_url": "data/desc/expanded_species.md",
+      "latest": {
+        "version": "0.6.6",
+        "tag": "v0.6.6",
+        "name": "v0.6.6",
+        "prerelease": false,
+        "published_at": "2026-08-26T02:58:59Z",
+        "zip": {
+          "name": "expanded_species-0.6.6.zip",
+          "url": "https://github.com/mistermiracle3036/Expanded-Species/releases/download/v0.6.6/expanded_species-0.6.6.zip",
+          "size": 60003
+        }
+      },
+      "downloads": 76,
+      "first_release": "2026-08-16T19:17:55Z",
+      "last_release": "2026-08-26T02:58:59Z"
+    },
+    {
+      "folder": "MisterMiracle@indigo_conference",
+      "id": "indigo_conference",
+      "title": "Indigo Plateau Conference",
+      "author": "Mister Miracle",
+      "version": "1.0.2",
+      "summary": "A repeatable tournament circuit for Gold/Silver/Crystal. Four rounds of guest challengers in the unused upstairs room of five Pokemon Centers, badge-gated, ending at the Indigo Plateau.",
+      "categories": [
+        "CONTENT",
+        "GAMEPLAY"
+      ],
+      "tags": [
+        "tournament",
+        "battles",
+        "johto",
+        "gen2"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Indigo-Plateau-Conference",
+      "github": "mistermiracle3036/Indigo-Plateau-Conference",
+      "api": 2,
+      "game_version": ">=0.1.78 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "update_check": "ok",
+      "license": "MIT",
+      "description_url": "data/desc/indigo_conference.md",
+      "latest": {
+        "version": "1.0.2",
+        "tag": "v1.0.2",
+        "name": "v1.0.2",
+        "prerelease": false,
+        "published_at": "2026-08-14T02:35:18Z",
+        "zip": {
+          "name": "indigo_conference-1.0.2.zip",
+          "url": "https://github.com/mistermiracle3036/Indigo-Plateau-Conference/releases/download/v1.0.2/indigo_conference-1.0.2.zip",
+          "size": 56357
+        }
+      },
+      "downloads": 64,
+      "first_release": "2026-08-14T02:24:01Z",
+      "last_release": "2026-08-14T02:35:18Z"
     },
     {
       "folder": "MisterMiracle@kanto_contests",
@@ -444,7 +444,7 @@
           "size": 31250
         }
       },
-      "downloads": 20,
+      "downloads": 21,
       "first_release": "2026-08-10T06:11:14Z",
       "last_release": "2026-08-10T23:16:30Z"
     },
@@ -493,7 +493,7 @@
           "size": 25140
         }
       },
-      "downloads": 18,
+      "downloads": 19,
       "first_release": "2026-08-14T00:38:54Z",
       "last_release": "2026-08-14T00:38:54Z"
     },
