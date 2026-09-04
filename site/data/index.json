@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T06:36:02.836Z",
+  "generated_at": "2026-09-04T06:34:44.906Z",
   "count": 11,
   "categories": [
     "GAMEPLAY",
@@ -45,20 +45,20 @@
       "update_check": "ok",
       "description_url": "data/desc/pokeball_colors.md",
       "latest": {
-        "version": "0.1.64",
-        "tag": "v0.1.64",
-        "name": "v0.1.64",
+        "version": "0.1.71",
+        "tag": "v0.1.71",
+        "name": "v0.1.71",
         "prerelease": false,
-        "published_at": "2026-08-30T02:51:19Z",
+        "published_at": "2026-09-03T22:56:13Z",
         "zip": {
-          "name": "pokeball_colors-0.1.64.zip",
-          "url": "https://github.com/mistermiracle3036/Pokeball-Colors/releases/download/v0.1.64/pokeball_colors-0.1.64.zip",
-          "size": 64875
+          "name": "pokeball_colors-0.1.71.zip",
+          "url": "https://github.com/mistermiracle3036/Pokeball-Colors/releases/download/v0.1.71/pokeball_colors-0.1.71.zip",
+          "size": 73507
         }
       },
-      "downloads": 1748,
+      "downloads": 1867,
       "first_release": "2026-08-08T15:29:22Z",
-      "last_release": "2026-08-30T02:51:19Z"
+      "last_release": "2026-09-03T22:56:13Z"
     },
     {
       "folder": "MisterMiracle@snag_quest",
@@ -104,7 +104,7 @@
           "size": 108040
         }
       },
-      "downloads": 850,
+      "downloads": 862,
       "first_release": "2026-08-08T05:57:58Z",
       "last_release": "2026-08-14T21:55:35Z"
     },
@@ -155,7 +155,7 @@
           "size": 85195
         }
       },
-      "downloads": 804,
+      "downloads": 832,
       "first_release": "2026-08-10T14:55:01Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -201,7 +201,7 @@
           "size": 9165
         }
       },
-      "downloads": 718,
+      "downloads": 743,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -249,7 +249,7 @@
           "size": 61605
         }
       },
-      "downloads": 261,
+      "downloads": 262,
       "first_release": "2026-08-08T14:50:46Z",
       "last_release": "2026-08-12T04:17:26Z"
     },
@@ -300,7 +300,7 @@
           "size": 8311
         }
       },
-      "downloads": 166,
+      "downloads": 191,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -348,7 +348,7 @@
           "size": 60003
         }
       },
-      "downloads": 89,
+      "downloads": 92,
       "first_release": "2026-08-16T19:17:55Z",
       "last_release": "2026-08-26T02:58:59Z"
     },
@@ -396,7 +396,7 @@
           "size": 56357
         }
       },
-      "downloads": 74,
+      "downloads": 77,
       "first_release": "2026-08-14T02:24:01Z",
       "last_release": "2026-08-14T02:35:18Z"
     },
