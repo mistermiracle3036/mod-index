@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-07T06:39:11.204Z",
+  "generated_at": "2026-09-08T11:25:05.864Z",
   "count": 11,
   "categories": [
     "GAMEPLAY",
@@ -45,20 +45,20 @@
       "update_check": "ok",
       "description_url": "data/desc/pokeball_colors.md",
       "latest": {
-        "version": "0.1.71",
-        "tag": "v0.1.71",
-        "name": "v0.1.71",
+        "version": "0.1.73",
+        "tag": "v0.1.73",
+        "name": "v0.1.73",
         "prerelease": false,
-        "published_at": "2026-09-03T22:56:13Z",
+        "published_at": "2026-09-07T14:55:57Z",
         "zip": {
-          "name": "pokeball_colors-0.1.71.zip",
-          "url": "https://github.com/mistermiracle3036/Pokeball-Colors/releases/download/v0.1.71/pokeball_colors-0.1.71.zip",
-          "size": 73507
+          "name": "pokeball_colors-0.1.73.zip",
+          "url": "https://github.com/mistermiracle3036/Pokeball-Colors/releases/download/v0.1.73/pokeball_colors-0.1.73.zip",
+          "size": 70054
         }
       },
-      "downloads": 2101,
+      "downloads": 2234,
       "first_release": "2026-08-08T15:29:22Z",
-      "last_release": "2026-09-03T22:56:13Z"
+      "last_release": "2026-09-07T14:55:57Z"
     },
     {
       "folder": "MisterMiracle@kanto_balls",
@@ -107,7 +107,7 @@
           "size": 85195
         }
       },
-      "downloads": 915,
+      "downloads": 941,
       "first_release": "2026-08-10T14:55:01Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -155,7 +155,7 @@
           "size": 108040
         }
       },
-      "downloads": 899,
+      "downloads": 908,
       "first_release": "2026-08-08T05:57:58Z",
       "last_release": "2026-08-14T21:55:35Z"
     },
@@ -201,57 +201,9 @@
           "size": 9165
         }
       },
-      "downloads": 818,
+      "downloads": 842,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-30T13:23:22Z"
-    },
-    {
-      "folder": "MisterMiracle@kanto_ribbons",
-      "id": "kanto_ribbons",
-      "title": "Ribbons",
-      "author": "Mister Miracle",
-      "version": "0.22.1",
-      "summary": "Nineteen per-Pokemon ribbons for Red/Blue/Yellow and Gold/Silver/Crystal - earned, bought, and bonded - awarded automatically and shown inside the status screen.",
-      "categories": [
-        "GAMEPLAY",
-        "UI"
-      ],
-      "tags": [
-        "ribbons",
-        "collection",
-        "status screen",
-        "gen1",
-        "gen2"
-      ],
-      "repo": "https://github.com/mistermiracle3036/Ribbons",
-      "github": "mistermiracle3036/Ribbons",
-      "api": 2,
-      "game_version": ">=0.1.38 <2.0.0",
-      "profile": "content",
-      "affects_link": false,
-      "experimental": false,
-      "permissions": [
-        "engine_internals"
-      ],
-      "dependencies": [],
-      "conflicts": [],
-      "update_check": "ok",
-      "description_url": "data/desc/kanto_ribbons.md",
-      "latest": {
-        "version": "0.21.4",
-        "tag": "v0.21.4",
-        "name": "v0.21.4",
-        "prerelease": false,
-        "published_at": "2026-08-12T04:17:26Z",
-        "zip": {
-          "name": "kanto_ribbons-0.21.4.zip",
-          "url": "https://github.com/mistermiracle3036/Ribbons/releases/download/v0.21.4/kanto_ribbons-0.21.4.zip",
-          "size": 61605
-        }
-      },
-      "downloads": 275,
-      "first_release": "2026-08-08T14:50:46Z",
-      "last_release": "2026-08-12T04:17:26Z"
     },
     {
       "folder": "MisterMiracle@example_balls",
@@ -300,9 +252,57 @@
           "size": 8311
         }
       },
-      "downloads": 266,
+      "downloads": 290,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-30T13:23:22Z"
+    },
+    {
+      "folder": "MisterMiracle@kanto_ribbons",
+      "id": "kanto_ribbons",
+      "title": "Ribbons",
+      "author": "Mister Miracle",
+      "version": "0.22.1",
+      "summary": "Nineteen per-Pokemon ribbons for Red/Blue/Yellow and Gold/Silver/Crystal - earned, bought, and bonded - awarded automatically and shown inside the status screen.",
+      "categories": [
+        "GAMEPLAY",
+        "UI"
+      ],
+      "tags": [
+        "ribbons",
+        "collection",
+        "status screen",
+        "gen1",
+        "gen2"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Ribbons",
+      "github": "mistermiracle3036/Ribbons",
+      "api": 2,
+      "game_version": ">=0.1.38 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "update_check": "ok",
+      "description_url": "data/desc/kanto_ribbons.md",
+      "latest": {
+        "version": "0.21.4",
+        "tag": "v0.21.4",
+        "name": "v0.21.4",
+        "prerelease": false,
+        "published_at": "2026-08-12T04:17:26Z",
+        "zip": {
+          "name": "kanto_ribbons-0.21.4.zip",
+          "url": "https://github.com/mistermiracle3036/Ribbons/releases/download/v0.21.4/kanto_ribbons-0.21.4.zip",
+          "size": 61605
+        }
+      },
+      "downloads": 281,
+      "first_release": "2026-08-08T14:50:46Z",
+      "last_release": "2026-08-12T04:17:26Z"
     },
     {
       "folder": "MisterMiracle@expanded_species",
@@ -348,7 +348,7 @@
           "size": 60003
         }
       },
-      "downloads": 111,
+      "downloads": 116,
       "first_release": "2026-08-16T19:17:55Z",
       "last_release": "2026-08-26T02:58:59Z"
     },
@@ -396,7 +396,7 @@
           "size": 56357
         }
       },
-      "downloads": 96,
+      "downloads": 100,
       "first_release": "2026-08-14T02:24:01Z",
       "last_release": "2026-08-14T02:35:18Z"
     },
@@ -444,7 +444,7 @@
           "size": 31250
         }
       },
-      "downloads": 38,
+      "downloads": 40,
       "first_release": "2026-08-10T06:11:14Z",
       "last_release": "2026-08-10T23:16:30Z"
     },
@@ -493,7 +493,7 @@
           "size": 25140
         }
       },
-      "downloads": 35,
+      "downloads": 37,
       "first_release": "2026-08-14T00:38:54Z",
       "last_release": "2026-08-14T00:38:54Z"
     },
