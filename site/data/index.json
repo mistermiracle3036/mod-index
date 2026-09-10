@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-09T11:30:30.070Z",
+  "generated_at": "2026-09-10T03:52:32.624Z",
   "count": 11,
   "categories": [
     "GAMEPLAY",
@@ -56,7 +56,7 @@
           "size": 70054
         }
       },
-      "downloads": 2305,
+      "downloads": 2337,
       "first_release": "2026-08-08T15:29:22Z",
       "last_release": "2026-09-07T14:55:57Z"
     },
@@ -107,7 +107,7 @@
           "size": 85195
         }
       },
-      "downloads": 957,
+      "downloads": 969,
       "first_release": "2026-08-10T14:55:01Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -155,7 +155,7 @@
           "size": 108040
         }
       },
-      "downloads": 918,
+      "downloads": 920,
       "first_release": "2026-08-08T05:57:58Z",
       "last_release": "2026-08-14T21:55:35Z"
     },
@@ -201,7 +201,7 @@
           "size": 9165
         }
       },
-      "downloads": 858,
+      "downloads": 869,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -252,7 +252,7 @@
           "size": 8311
         }
       },
-      "downloads": 306,
+      "downloads": 317,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -261,8 +261,8 @@
       "id": "kanto_ribbons",
       "title": "Ribbons",
       "author": "Mister Miracle",
-      "version": "0.22.1",
-      "summary": "Nineteen per-Pokemon ribbons for Red/Blue/Yellow and Gold/Silver/Crystal - earned, bought, and bonded - awarded automatically and shown inside the status screen.",
+      "version": "0.24.1",
+      "summary": "Thirty-eight per-Pokemon ribbons for Red/Blue/Yellow and Gold/Silver/Crystal - earned, bought, and bonded - awarded automatically and shown inside the status screen.",
       "categories": [
         "GAMEPLAY",
         "UI"
@@ -300,7 +300,7 @@
           "size": 61605
         }
       },
-      "downloads": 283,
+      "downloads": 284,
       "first_release": "2026-08-08T14:50:46Z",
       "last_release": "2026-08-12T04:17:26Z"
     },
@@ -348,7 +348,7 @@
           "size": 60003
         }
       },
-      "downloads": 116,
+      "downloads": 117,
       "first_release": "2026-08-16T19:17:55Z",
       "last_release": "2026-08-26T02:58:59Z"
     },
@@ -396,7 +396,7 @@
           "size": 56357
         }
       },
-      "downloads": 100,
+      "downloads": 103,
       "first_release": "2026-08-14T02:24:01Z",
       "last_release": "2026-08-14T02:35:18Z"
     },
@@ -444,7 +444,7 @@
           "size": 31250
         }
       },
-      "downloads": 40,
+      "downloads": 41,
       "first_release": "2026-08-10T06:11:14Z",
       "last_release": "2026-08-10T23:16:30Z"
     },
@@ -493,7 +493,7 @@
           "size": 25140
         }
       },
-      "downloads": 37,
+      "downloads": 38,
       "first_release": "2026-08-14T00:38:54Z",
       "last_release": "2026-08-14T00:38:54Z"
     },
