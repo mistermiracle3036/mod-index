@@ -1,44 +1,42 @@
-Ruby/Sapphire-style Pokemon Contests, rebuilt for Kanto on gen1recomp.
+Pokemon **Contests** for gen1recomp -- Crystal, Gold and Silver. Five
+categories, a four-hall rank circuit across Johto, rival coordinators drawn
+from a cast of well over a hundred, a live crowd, snacks and scarves, and a
+judging round played by the Ruby and Sapphire rules.
 
-Talk to the little girl in **Celadon City** and she'll show you the way to
-the new Contest Hall. Inside, the judge runs a COOL contest: you have five
-appeals to fill his meter, and every move is scored on its **contest
-category** rather than its damage.
+*(Formerly "Kanto Contests" -- the circuit is Johto's now. Same mod, same
+saves, nothing to reinstall.)*
 
-> **ALPHA / proof of concept.** One contest type, one hall, one judge. It
-> is playable and it is stable, but it is a fraction of what Contests
-> should be, and things will change between versions. Feedback and bug
-> reports are the point of releasing it this early -- especially "that
-> move is in the wrong category".
+## The circuit
 
-## How a contest works
+Each hall runs one rank. You climb by travelling, and a hall takes your entry
+once the Pokemon you bring has the wins it asks for in that category.
 
-Each of your POKeMON's moves has a contest category -- COOL, BEAUTY,
-CUTE, SMART or TOUGH -- shown in place of the type when you pick a move.
+| Hall | Rank | Wins needed |
+|---|---|---|
+| Goldenrod | NORMAL | 0 |
+| Ecruteak | SUPER | 1 |
+| Cianwood | HYPER | 2 |
+| Blackthorn | MASTER | 3 |
 
-- **Matches the contest** -- a perfect appeal, fills a quarter of the meter.
-- **Neither matching nor clashing** -- still works, fills a tenth.
-- **One of the contest's two clashing categories** -- nothing, and the
-  judge frowns.
+Wins at any rank count toward eligibility, so you do not have to win each
+rank in order. The rank you actually won at is recorded separately, for
+ribbons. Challenge Fantina at MASTER and earn a Dusk Stone.
 
-Fill the meter within five appeals to win. Run out and the judge shakes
-his head: no blackout, no penalty. RUN withdraws you from the stage at any
-time.
+## Features
 
-It is a performance, not a fight -- no accuracy rolls, no type chart, no
-side effects (GROWL lowers nothing), no EXP, and no switching or items
-mid-routine. One POKeMON, one routine.
+- **Five categories** -- Cool, Beauty, Cute, Smart and Tough -- scored on
+  each move's contest category, opposed-category pairs and all.
+- **Condition and sheen.** Raise a Pokemon's condition with PokeSnacks and
+  dress it with contest scarves.
+- **A real crowd.** Rival coordinators, a live audience and an applause
+  meter that reacts to the round you are actually playing.
+- **Optional extras.** Honchkrow and Mismagius are supported where the
+  species exist; no species framework is required.
+- **Artists credited in game.** START, then CREDITS.
 
-## What is not in yet
+Optional: **Ribbons** reads each win and awards the matching contest ribbon,
+including retroactively -- one per category per rank.
 
-Only the COOL contest. No PokeSnacks, no condition, no ranks, and the
-contest HUD is drawn for the classic battle layout only.
-
-## With Kanto Ribbons
-
-Optional. With **Kanto Ribbons 0.18.0+** installed, a COOL win earns that
-POKeMON a **Cool Ribbon**. Without it, contests play exactly the same and
-the judge never mentions ribbons.
-
-The win is recorded on the POKeMON itself either way, so installing Kanto
-Ribbons later still awards ribbons for contests you have already won.
+> Still growing -- new halls, coordinators and refinements land regularly.
+> Bug reports and ideas are welcome in the repo's Issues; please include the
+> version from your load log and which other mods were enabled.

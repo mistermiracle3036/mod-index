@@ -31,7 +31,7 @@ same manifest checks.
 | --- | --- |
 | **Pokemon Snag** | Steal Pokemon from trainers with the Snag Ball. Requires Quest System. |
 | **Ribbons** | Thirty-eight per-Pokemon ribbons, awarded automatically, shown in the status screen. Red/Blue/Yellow and Gold/Silver/Crystal. |
-| **Kanto Contests** | *Alpha.* Ruby/Sapphire-style Contests in Celadon, scored on each move's contest category. |
+| **Contests** | Ruby/Sapphire-style Pokemon Contests: five categories, a four-hall rank circuit across Johto. |
 | **Pokeball Colors** | Per-ball colors for the battle ball toss under ADVANCED color mode. |
 | **Shop Events** | Library mod: emits `shop.purchased` at marts. |
 | **Kanto Balls** | Seven new Poke Balls, each written as a readable template for your own. Requires Shop Events. |

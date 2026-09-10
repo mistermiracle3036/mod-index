@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-10T11:26:58.141Z",
+  "generated_at": "2026-09-10T14:56:39.014Z",
   "count": 11,
   "categories": [
     "GAMEPLAY",
@@ -56,7 +56,7 @@
           "size": 70054
         }
       },
-      "downloads": 2349,
+      "downloads": 2358,
       "first_release": "2026-08-08T15:29:22Z",
       "last_release": "2026-09-07T14:55:57Z"
     },
@@ -107,7 +107,7 @@
           "size": 85195
         }
       },
-      "downloads": 973,
+      "downloads": 975,
       "first_release": "2026-08-10T14:55:01Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -201,7 +201,7 @@
           "size": 9165
         }
       },
-      "downloads": 873,
+      "downloads": 875,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -252,7 +252,7 @@
           "size": 8311
         }
       },
-      "downloads": 321,
+      "downloads": 323,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -300,7 +300,7 @@
           "size": 72427
         }
       },
-      "downloads": 288,
+      "downloads": 292,
       "first_release": "2026-08-08T14:50:46Z",
       "last_release": "2026-09-10T04:02:05Z"
     },
@@ -403,10 +403,10 @@
     {
       "folder": "MisterMiracle@kanto_contests",
       "id": "kanto_contests",
-      "title": "Kanto Contests (Alpha)",
+      "title": "Contests",
       "author": "Mister Miracle",
-      "version": "0.15.0",
-      "summary": "ALPHA - Ruby/Sapphire-style Pokemon Contests in Kanto and Johto. Raise condition with PokeSnacks, earn contest scarves, then appeal in COOL, BEAUTY, CUTE, SMART or TOUGH. Wins are recorded per category on the Pokemon.",
+      "version": "0.37.31",
+      "summary": "Pokemon Contests for Crystal, Gold and Silver: five categories, a four-hall rank circuit across Johto, rival coordinators, snacks, scarves and a Ruby/Sapphire judging round.",
       "categories": [
         "CONTENT",
         "GAMEPLAY"
@@ -444,7 +444,7 @@
           "size": 258525
         }
       },
-      "downloads": 49,
+      "downloads": 50,
       "first_release": "2026-08-10T06:11:14Z",
       "last_release": "2026-09-10T06:02:43Z"
     },
