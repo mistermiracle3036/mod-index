@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-10T03:52:32.624Z",
+  "generated_at": "2026-09-10T11:26:58.141Z",
   "count": 11,
   "categories": [
     "GAMEPLAY",
@@ -56,7 +56,7 @@
           "size": 70054
         }
       },
-      "downloads": 2337,
+      "downloads": 2349,
       "first_release": "2026-08-08T15:29:22Z",
       "last_release": "2026-09-07T14:55:57Z"
     },
@@ -107,7 +107,7 @@
           "size": 85195
         }
       },
-      "downloads": 969,
+      "downloads": 973,
       "first_release": "2026-08-10T14:55:01Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -201,7 +201,7 @@
           "size": 9165
         }
       },
-      "downloads": 869,
+      "downloads": 873,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -252,7 +252,7 @@
           "size": 8311
         }
       },
-      "downloads": 317,
+      "downloads": 321,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -289,20 +289,20 @@
       "update_check": "ok",
       "description_url": "data/desc/kanto_ribbons.md",
       "latest": {
-        "version": "0.21.4",
-        "tag": "v0.21.4",
-        "name": "v0.21.4",
+        "version": "0.24.1",
+        "tag": "v0.24.1",
+        "name": "v0.24.1",
         "prerelease": false,
-        "published_at": "2026-08-12T04:17:26Z",
+        "published_at": "2026-09-10T04:02:05Z",
         "zip": {
-          "name": "kanto_ribbons-0.21.4.zip",
-          "url": "https://github.com/mistermiracle3036/Ribbons/releases/download/v0.21.4/kanto_ribbons-0.21.4.zip",
-          "size": 61605
+          "name": "kanto_ribbons-0.24.1.zip",
+          "url": "https://github.com/mistermiracle3036/Ribbons/releases/download/v0.24.1/kanto_ribbons-0.24.1.zip",
+          "size": 72427
         }
       },
-      "downloads": 284,
+      "downloads": 288,
       "first_release": "2026-08-08T14:50:46Z",
-      "last_release": "2026-08-12T04:17:26Z"
+      "last_release": "2026-09-10T04:02:05Z"
     },
     {
       "folder": "MisterMiracle@expanded_species",
@@ -348,7 +348,7 @@
           "size": 60003
         }
       },
-      "downloads": 117,
+      "downloads": 118,
       "first_release": "2026-08-16T19:17:55Z",
       "last_release": "2026-08-26T02:58:59Z"
     },
@@ -396,7 +396,7 @@
           "size": 56357
         }
       },
-      "downloads": 103,
+      "downloads": 104,
       "first_release": "2026-08-14T02:24:01Z",
       "last_release": "2026-08-14T02:35:18Z"
     },
@@ -433,20 +433,20 @@
       "update_check": "ok",
       "description_url": "data/desc/kanto_contests.md",
       "latest": {
-        "version": "0.8.2",
-        "tag": "v0.8.2",
-        "name": "v0.8.2",
+        "version": "0.37.31",
+        "tag": "v0.37.31",
+        "name": "v0.37.31",
         "prerelease": false,
-        "published_at": "2026-08-10T23:16:30Z",
+        "published_at": "2026-09-10T06:02:43Z",
         "zip": {
-          "name": "kanto_contests-0.8.2.zip",
-          "url": "https://github.com/mistermiracle3036/Kanto-Contests/releases/download/v0.8.2/kanto_contests-0.8.2.zip",
-          "size": 31250
+          "name": "kanto_contests-0.37.31.zip",
+          "url": "https://github.com/mistermiracle3036/Kanto-Contests/releases/download/v0.37.31/kanto_contests-0.37.31.zip",
+          "size": 258525
         }
       },
-      "downloads": 41,
+      "downloads": 49,
       "first_release": "2026-08-10T06:11:14Z",
-      "last_release": "2026-08-10T23:16:30Z"
+      "last_release": "2026-09-10T06:02:43Z"
     },
     {
       "folder": "MisterMiracle@gold_records",
@@ -493,7 +493,7 @@
           "size": 25140
         }
       },
-      "downloads": 38,
+      "downloads": 39,
       "first_release": "2026-08-14T00:38:54Z",
       "last_release": "2026-08-14T00:38:54Z"
     },
