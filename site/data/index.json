@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-10T14:56:39.014Z",
+  "generated_at": "2026-09-11T11:28:39.416Z",
   "count": 11,
   "categories": [
     "GAMEPLAY",
@@ -56,7 +56,7 @@
           "size": 70054
         }
       },
-      "downloads": 2358,
+      "downloads": 2406,
       "first_release": "2026-08-08T15:29:22Z",
       "last_release": "2026-09-07T14:55:57Z"
     },
@@ -107,7 +107,7 @@
           "size": 85195
         }
       },
-      "downloads": 975,
+      "downloads": 987,
       "first_release": "2026-08-10T14:55:01Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -155,7 +155,7 @@
           "size": 108040
         }
       },
-      "downloads": 920,
+      "downloads": 922,
       "first_release": "2026-08-08T05:57:58Z",
       "last_release": "2026-08-14T21:55:35Z"
     },
@@ -201,7 +201,7 @@
           "size": 9165
         }
       },
-      "downloads": 875,
+      "downloads": 886,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -252,7 +252,7 @@
           "size": 8311
         }
       },
-      "downloads": 323,
+      "downloads": 334,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -300,7 +300,7 @@
           "size": 72427
         }
       },
-      "downloads": 292,
+      "downloads": 303,
       "first_release": "2026-08-08T14:50:46Z",
       "last_release": "2026-09-10T04:02:05Z"
     },
@@ -348,7 +348,7 @@
           "size": 60003
         }
       },
-      "downloads": 118,
+      "downloads": 121,
       "first_release": "2026-08-16T19:17:55Z",
       "last_release": "2026-08-26T02:58:59Z"
     },
@@ -396,7 +396,7 @@
           "size": 56357
         }
       },
-      "downloads": 104,
+      "downloads": 107,
       "first_release": "2026-08-14T02:24:01Z",
       "last_release": "2026-08-14T02:35:18Z"
     },
@@ -433,20 +433,20 @@
       "update_check": "ok",
       "description_url": "data/desc/kanto_contests.md",
       "latest": {
-        "version": "0.37.31",
-        "tag": "v0.37.31",
-        "name": "v0.37.31",
+        "version": "0.37.40",
+        "tag": "v0.37.40",
+        "name": "v0.37.40",
         "prerelease": false,
-        "published_at": "2026-09-10T06:02:43Z",
+        "published_at": "2026-09-10T15:34:51Z",
         "zip": {
-          "name": "kanto_contests-0.37.31.zip",
-          "url": "https://github.com/mistermiracle3036/Kanto-Contests/releases/download/v0.37.31/kanto_contests-0.37.31.zip",
-          "size": 258525
+          "name": "kanto_contests-0.37.40.zip",
+          "url": "https://github.com/mistermiracle3036/Kanto-Contests/releases/download/v0.37.40/kanto_contests-0.37.40.zip",
+          "size": 263815
         }
       },
-      "downloads": 50,
+      "downloads": 60,
       "first_release": "2026-08-10T06:11:14Z",
-      "last_release": "2026-09-10T06:02:43Z"
+      "last_release": "2026-09-10T15:34:51Z"
     },
     {
       "folder": "MisterMiracle@gold_records",
