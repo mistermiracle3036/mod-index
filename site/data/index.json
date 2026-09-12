@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T11:28:39.416Z",
+  "generated_at": "2026-09-12T10:53:07.586Z",
   "count": 11,
   "categories": [
     "GAMEPLAY",
@@ -56,7 +56,7 @@
           "size": 70054
         }
       },
-      "downloads": 2406,
+      "downloads": 2441,
       "first_release": "2026-08-08T15:29:22Z",
       "last_release": "2026-09-07T14:55:57Z"
     },
@@ -107,7 +107,7 @@
           "size": 85195
         }
       },
-      "downloads": 987,
+      "downloads": 1004,
       "first_release": "2026-08-10T14:55:01Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -155,7 +155,7 @@
           "size": 108040
         }
       },
-      "downloads": 922,
+      "downloads": 929,
       "first_release": "2026-08-08T05:57:58Z",
       "last_release": "2026-08-14T21:55:35Z"
     },
@@ -201,7 +201,7 @@
           "size": 9165
         }
       },
-      "downloads": 886,
+      "downloads": 902,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -252,7 +252,7 @@
           "size": 8311
         }
       },
-      "downloads": 334,
+      "downloads": 350,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -300,7 +300,7 @@
           "size": 72427
         }
       },
-      "downloads": 303,
+      "downloads": 314,
       "first_release": "2026-08-08T14:50:46Z",
       "last_release": "2026-09-10T04:02:05Z"
     },
@@ -348,7 +348,7 @@
           "size": 60003
         }
       },
-      "downloads": 121,
+      "downloads": 127,
       "first_release": "2026-08-16T19:17:55Z",
       "last_release": "2026-08-26T02:58:59Z"
     },
@@ -396,7 +396,7 @@
           "size": 56357
         }
       },
-      "downloads": 107,
+      "downloads": 112,
       "first_release": "2026-08-14T02:24:01Z",
       "last_release": "2026-08-14T02:35:18Z"
     },
@@ -444,7 +444,7 @@
           "size": 263815
         }
       },
-      "downloads": 60,
+      "downloads": 72,
       "first_release": "2026-08-10T06:11:14Z",
       "last_release": "2026-09-10T15:34:51Z"
     },
@@ -493,7 +493,7 @@
           "size": 25140
         }
       },
-      "downloads": 39,
+      "downloads": 40,
       "first_release": "2026-08-14T00:38:54Z",
       "last_release": "2026-08-14T00:38:54Z"
     },
