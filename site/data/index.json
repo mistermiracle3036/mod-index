@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T11:06:50.522Z",
+  "generated_at": "2026-09-20T11:31:33.225Z",
   "count": 11,
   "categories": [
     "GAMEPLAY",
@@ -56,7 +56,7 @@
           "size": 70054
         }
       },
-      "downloads": 2614,
+      "downloads": 2644,
       "first_release": "2026-08-08T15:29:22Z",
       "last_release": "2026-09-07T14:55:57Z"
     },
@@ -107,7 +107,7 @@
           "size": 85195
         }
       },
-      "downloads": 1108,
+      "downloads": 1127,
       "first_release": "2026-08-10T14:55:01Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -153,7 +153,7 @@
           "size": 9165
         }
       },
-      "downloads": 999,
+      "downloads": 1017,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -201,7 +201,7 @@
           "size": 108040
         }
       },
-      "downloads": 961,
+      "downloads": 964,
       "first_release": "2026-08-08T05:57:58Z",
       "last_release": "2026-08-14T21:55:35Z"
     },
@@ -252,7 +252,7 @@
           "size": 8311
         }
       },
-      "downloads": 446,
+      "downloads": 464,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -300,7 +300,7 @@
           "size": 72427
         }
       },
-      "downloads": 353,
+      "downloads": 362,
       "first_release": "2026-08-08T14:50:46Z",
       "last_release": "2026-09-10T04:02:05Z"
     },
@@ -348,57 +348,9 @@
           "size": 60003
         }
       },
-      "downloads": 147,
+      "downloads": 153,
       "first_release": "2026-08-16T19:17:55Z",
       "last_release": "2026-08-26T02:58:59Z"
-    },
-    {
-      "folder": "MisterMiracle@indigo_conference",
-      "id": "indigo_conference",
-      "title": "Indigo Plateau Conference",
-      "author": "Mister Miracle",
-      "version": "1.0.2",
-      "summary": "A repeatable tournament circuit for Gold/Silver/Crystal. Four rounds of guest challengers in the unused upstairs room of five Pokemon Centers, badge-gated, ending at the Indigo Plateau.",
-      "categories": [
-        "CONTENT",
-        "GAMEPLAY"
-      ],
-      "tags": [
-        "tournament",
-        "battles",
-        "johto",
-        "gen2"
-      ],
-      "repo": "https://github.com/mistermiracle3036/Indigo-Plateau-Conference",
-      "github": "mistermiracle3036/Indigo-Plateau-Conference",
-      "api": 2,
-      "game_version": ">=0.1.78 <2.0.0",
-      "profile": "content",
-      "affects_link": false,
-      "experimental": false,
-      "permissions": [
-        "engine_internals"
-      ],
-      "dependencies": [],
-      "conflicts": [],
-      "update_check": "ok",
-      "license": "MIT",
-      "description_url": "data/desc/indigo_conference.md",
-      "latest": {
-        "version": "1.0.2",
-        "tag": "v1.0.2",
-        "name": "v1.0.2",
-        "prerelease": false,
-        "published_at": "2026-08-14T02:35:18Z",
-        "zip": {
-          "name": "indigo_conference-1.0.2.zip",
-          "url": "https://github.com/mistermiracle3036/Indigo-Plateau-Conference/releases/download/v1.0.2/indigo_conference-1.0.2.zip",
-          "size": 56357
-        }
-      },
-      "downloads": 129,
-      "first_release": "2026-08-14T02:24:01Z",
-      "last_release": "2026-08-14T02:35:18Z"
     },
     {
       "folder": "MisterMiracle@kanto_contests",
@@ -444,9 +396,57 @@
           "size": 261875
         }
       },
-      "downloads": 128,
+      "downloads": 134,
       "first_release": "2026-08-10T06:11:14Z",
       "last_release": "2026-09-16T01:29:18Z"
+    },
+    {
+      "folder": "MisterMiracle@indigo_conference",
+      "id": "indigo_conference",
+      "title": "Indigo Plateau Conference",
+      "author": "Mister Miracle",
+      "version": "1.0.2",
+      "summary": "A repeatable tournament circuit for Gold/Silver/Crystal. Four rounds of guest challengers in the unused upstairs room of five Pokemon Centers, badge-gated, ending at the Indigo Plateau.",
+      "categories": [
+        "CONTENT",
+        "GAMEPLAY"
+      ],
+      "tags": [
+        "tournament",
+        "battles",
+        "johto",
+        "gen2"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Indigo-Plateau-Conference",
+      "github": "mistermiracle3036/Indigo-Plateau-Conference",
+      "api": 2,
+      "game_version": ">=0.1.78 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "update_check": "ok",
+      "license": "MIT",
+      "description_url": "data/desc/indigo_conference.md",
+      "latest": {
+        "version": "1.0.2",
+        "tag": "v1.0.2",
+        "name": "v1.0.2",
+        "prerelease": false,
+        "published_at": "2026-08-14T02:35:18Z",
+        "zip": {
+          "name": "indigo_conference-1.0.2.zip",
+          "url": "https://github.com/mistermiracle3036/Indigo-Plateau-Conference/releases/download/v1.0.2/indigo_conference-1.0.2.zip",
+          "size": 56357
+        }
+      },
+      "downloads": 134,
+      "first_release": "2026-08-14T02:24:01Z",
+      "last_release": "2026-08-14T02:35:18Z"
     },
     {
       "folder": "MisterMiracle@gold_records",
@@ -493,7 +493,7 @@
           "size": 25140
         }
       },
-      "downloads": 48,
+      "downloads": 49,
       "first_release": "2026-08-14T00:38:54Z",
       "last_release": "2026-08-14T00:38:54Z"
     },
