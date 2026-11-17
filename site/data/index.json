@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T15:57:44.310Z",
+  "generated_at": "2026-11-17T16:08:48.724Z",
   "count": 11,
   "categories": [
     "GAMEPLAY",
@@ -56,7 +56,7 @@
           "size": 70054
         }
       },
-      "downloads": 3684,
+      "downloads": 3697,
       "first_release": "2026-08-08T15:29:22Z",
       "last_release": "2026-09-07T14:55:57Z"
     },
@@ -107,7 +107,7 @@
           "size": 85195
         }
       },
-      "downloads": 1752,
+      "downloads": 1757,
       "first_release": "2026-08-10T14:55:01Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -153,7 +153,7 @@
           "size": 9165
         }
       },
-      "downloads": 1640,
+      "downloads": 1645,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -201,7 +201,7 @@
           "size": 109363
         }
       },
-      "downloads": 1562,
+      "downloads": 1571,
       "first_release": "2026-08-08T05:57:58Z",
       "last_release": "2026-10-12T16:28:29Z"
     },
@@ -252,7 +252,7 @@
           "size": 8311
         }
       },
-      "downloads": 1078,
+      "downloads": 1083,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -300,7 +300,7 @@
           "size": 72427
         }
       },
-      "downloads": 793,
+      "downloads": 798,
       "first_release": "2026-08-08T14:50:46Z",
       "last_release": "2026-09-10T04:02:05Z"
     },
@@ -348,9 +348,57 @@
           "size": 60003
         }
       },
-      "downloads": 590,
+      "downloads": 594,
       "first_release": "2026-08-16T19:17:55Z",
       "last_release": "2026-08-26T02:58:59Z"
+    },
+    {
+      "folder": "MisterMiracle@kanto_contests",
+      "id": "kanto_contests",
+      "title": "Contests",
+      "author": "Mister Miracle",
+      "version": "0.37.31",
+      "summary": "Pokemon Contests for Crystal, Gold and Silver: five categories, a four-hall rank circuit across Johto, rival coordinators, snacks, scarves and a Ruby/Sapphire judging round.",
+      "categories": [
+        "CONTENT",
+        "GAMEPLAY"
+      ],
+      "tags": [
+        "contests",
+        "celadon",
+        "alpha",
+        "gen1",
+        "gen2"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Kanto-Contests",
+      "github": "mistermiracle3036/Kanto-Contests",
+      "api": 2,
+      "game_version": ">=0.1.75 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "update_check": "ok",
+      "description_url": "data/desc/kanto_contests.md",
+      "latest": {
+        "version": "0.37.62",
+        "tag": "v0.37.62",
+        "name": "v0.37.62",
+        "prerelease": false,
+        "published_at": "2026-11-17T13:58:20Z",
+        "zip": {
+          "name": "kanto_contests-0.37.62.zip",
+          "url": "https://github.com/mistermiracle3036/Kanto-Contests/releases/download/v0.37.62/kanto_contests-0.37.62.zip",
+          "size": 282984
+        }
+      },
+      "downloads": 577,
+      "first_release": "2026-08-10T06:11:14Z",
+      "last_release": "2026-11-17T13:58:20Z"
     },
     {
       "folder": "MisterMiracle@indigo_conference",
@@ -396,57 +444,9 @@
           "size": 56682
         }
       },
-      "downloads": 571,
+      "downloads": 576,
       "first_release": "2026-08-14T02:24:01Z",
       "last_release": "2026-10-04T16:12:41Z"
-    },
-    {
-      "folder": "MisterMiracle@kanto_contests",
-      "id": "kanto_contests",
-      "title": "Contests",
-      "author": "Mister Miracle",
-      "version": "0.37.31",
-      "summary": "Pokemon Contests for Crystal, Gold and Silver: five categories, a four-hall rank circuit across Johto, rival coordinators, snacks, scarves and a Ruby/Sapphire judging round.",
-      "categories": [
-        "CONTENT",
-        "GAMEPLAY"
-      ],
-      "tags": [
-        "contests",
-        "celadon",
-        "alpha",
-        "gen1",
-        "gen2"
-      ],
-      "repo": "https://github.com/mistermiracle3036/Kanto-Contests",
-      "github": "mistermiracle3036/Kanto-Contests",
-      "api": 2,
-      "game_version": ">=0.1.75 <2.0.0",
-      "profile": "content",
-      "affects_link": false,
-      "experimental": false,
-      "permissions": [
-        "engine_internals"
-      ],
-      "dependencies": [],
-      "conflicts": [],
-      "update_check": "ok",
-      "description_url": "data/desc/kanto_contests.md",
-      "latest": {
-        "version": "0.37.42",
-        "tag": "v0.37.42",
-        "name": "v0.37.42",
-        "prerelease": false,
-        "published_at": "2026-09-16T01:29:18Z",
-        "zip": {
-          "name": "kanto_contests-0.37.42.zip",
-          "url": "https://github.com/mistermiracle3036/Kanto-Contests/releases/download/v0.37.42/kanto_contests-0.37.42.zip",
-          "size": 261875
-        }
-      },
-      "downloads": 561,
-      "first_release": "2026-08-10T06:11:14Z",
-      "last_release": "2026-09-16T01:29:18Z"
     },
     {
       "folder": "MisterMiracle@gold_records",
@@ -493,7 +493,7 @@
           "size": 25511
         }
       },
-      "downloads": 418,
+      "downloads": 422,
       "first_release": "2026-08-14T00:38:54Z",
       "last_release": "2026-10-04T16:13:02Z"
     },
