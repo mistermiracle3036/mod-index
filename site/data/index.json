@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T14:40:35.913Z",
+  "generated_at": "2026-11-23T18:21:20.391Z",
   "count": 11,
   "categories": [
     "GAMEPLAY",
@@ -56,7 +56,7 @@
           "size": 70054
         }
       },
-      "downloads": 3755,
+      "downloads": 3763,
       "first_release": "2026-08-08T15:29:22Z",
       "last_release": "2026-09-07T14:55:57Z"
     },
@@ -107,7 +107,7 @@
           "size": 85195
         }
       },
-      "downloads": 1800,
+      "downloads": 1807,
       "first_release": "2026-08-10T14:55:01Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -153,7 +153,7 @@
           "size": 9165
         }
       },
-      "downloads": 1688,
+      "downloads": 1695,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -201,7 +201,7 @@
           "size": 109363
         }
       },
-      "downloads": 1609,
+      "downloads": 1614,
       "first_release": "2026-08-08T05:57:58Z",
       "last_release": "2026-10-12T16:28:29Z"
     },
@@ -252,7 +252,7 @@
           "size": 8311
         }
       },
-      "downloads": 1126,
+      "downloads": 1133,
       "first_release": "2026-08-09T01:25:43Z",
       "last_release": "2026-08-30T13:23:22Z"
     },
@@ -300,57 +300,9 @@
           "size": 72427
         }
       },
-      "downloads": 826,
+      "downloads": 831,
       "first_release": "2026-08-08T14:50:46Z",
       "last_release": "2026-09-10T04:02:05Z"
-    },
-    {
-      "folder": "MisterMiracle@expanded_species",
-      "id": "expanded_species",
-      "title": "Expanded Species",
-      "author": "Mister Miracle",
-      "version": "0.6.6",
-      "summary": "A framework for custom species above #255 on Gold/Silver/Crystal. It adds no Pokemon itself - species packs built on it do. Uncapped encounters, trainer helpers, cosmetic forms and missing-pack save protection.",
-      "categories": [
-        "LIBRARY",
-        "CONTENT"
-      ],
-      "tags": [
-        "framework",
-        "modding-tool",
-        "custom species",
-        "gen2"
-      ],
-      "repo": "https://github.com/mistermiracle3036/Expanded-Species",
-      "github": "mistermiracle3036/Expanded-Species",
-      "api": 2,
-      "game_version": ">=0.1.94 <2.0.0",
-      "profile": "content",
-      "affects_link": false,
-      "experimental": false,
-      "permissions": [
-        "engine_internals"
-      ],
-      "dependencies": [],
-      "conflicts": [],
-      "update_check": "ok",
-      "license": "MIT",
-      "description_url": "data/desc/expanded_species.md",
-      "latest": {
-        "version": "0.6.6",
-        "tag": "v0.6.6",
-        "name": "v0.6.6",
-        "prerelease": false,
-        "published_at": "2026-08-26T02:58:59Z",
-        "zip": {
-          "name": "expanded_species-0.6.6.zip",
-          "url": "https://github.com/mistermiracle3036/Expanded-Species/releases/download/v0.6.6/expanded_species-0.6.6.zip",
-          "size": 60003
-        }
-      },
-      "downloads": 622,
-      "first_release": "2026-08-16T19:17:55Z",
-      "last_release": "2026-08-26T02:58:59Z"
     },
     {
       "folder": "MisterMiracle@kanto_contests",
@@ -396,9 +348,57 @@
           "size": 282984
         }
       },
-      "downloads": 621,
+      "downloads": 627,
       "first_release": "2026-08-10T06:11:14Z",
       "last_release": "2026-11-17T13:58:20Z"
+    },
+    {
+      "folder": "MisterMiracle@expanded_species",
+      "id": "expanded_species",
+      "title": "Expanded Species",
+      "author": "Mister Miracle",
+      "version": "0.6.6",
+      "summary": "A framework for custom species above #255 on Gold/Silver/Crystal. It adds no Pokemon itself - species packs built on it do. Uncapped encounters, trainer helpers, cosmetic forms and missing-pack save protection.",
+      "categories": [
+        "LIBRARY",
+        "CONTENT"
+      ],
+      "tags": [
+        "framework",
+        "modding-tool",
+        "custom species",
+        "gen2"
+      ],
+      "repo": "https://github.com/mistermiracle3036/Expanded-Species",
+      "github": "mistermiracle3036/Expanded-Species",
+      "api": 2,
+      "game_version": ">=0.1.94 <2.0.0",
+      "profile": "content",
+      "affects_link": false,
+      "experimental": false,
+      "permissions": [
+        "engine_internals"
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "update_check": "ok",
+      "license": "MIT",
+      "description_url": "data/desc/expanded_species.md",
+      "latest": {
+        "version": "0.6.6",
+        "tag": "v0.6.6",
+        "name": "v0.6.6",
+        "prerelease": false,
+        "published_at": "2026-08-26T02:58:59Z",
+        "zip": {
+          "name": "expanded_species-0.6.6.zip",
+          "url": "https://github.com/mistermiracle3036/Expanded-Species/releases/download/v0.6.6/expanded_species-0.6.6.zip",
+          "size": 60003
+        }
+      },
+      "downloads": 626,
+      "first_release": "2026-08-16T19:17:55Z",
+      "last_release": "2026-08-26T02:58:59Z"
     },
     {
       "folder": "MisterMiracle@indigo_conference",
@@ -444,7 +444,7 @@
           "size": 56682
         }
       },
-      "downloads": 608,
+      "downloads": 613,
       "first_release": "2026-08-14T02:24:01Z",
       "last_release": "2026-10-04T16:12:41Z"
     },
@@ -493,7 +493,7 @@
           "size": 25511
         }
       },
-      "downloads": 448,
+      "downloads": 452,
       "first_release": "2026-08-14T00:38:54Z",
       "last_release": "2026-10-04T16:13:02Z"
     },
